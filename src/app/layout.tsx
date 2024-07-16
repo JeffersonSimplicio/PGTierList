@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header/header";
 
 const PS2P = Press_Start_2P({
   subsets: ["latin"],
@@ -18,7 +19,10 @@ interface IRootLayout extends Readonly<{ children: React.ReactNode }> {}
 export default function RootLayout({ children }: IRootLayout) {
   return (
     <html lang="pt-br">
-      <body className={PS2P.className}>{children}</body>
+      <body className={PS2P.className}>
+        <Header/>
+        {children}
+      </body>
     </html>
   );
 }
