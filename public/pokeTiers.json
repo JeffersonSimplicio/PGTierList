@@ -1,0 +1,5122 @@
+{
+    "S Tier": [
+      {
+        "name": "Primal Groudon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/groudon-primal",
+        "types": ["Ground", "Fire"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Precipice Blades *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Primal Kyogre",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kyogre-primal",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Origin Pulse *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Rayquaza",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rayquaza-mega",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Air Slash",
+            "charged_attack": "Dragon Ascent"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Salamence",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/salamence-mega",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Draco Meteor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Blaziken",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/blaziken-mega",
+        "types": ["Fire", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Alakazam",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/alakazam-mega",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Tyranitar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tyranitar-mega",
+        "types": ["Rock", "Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Brutal Swing"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down *",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Garchomp",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/garchomp-mega",
+        "types": ["Dragon", "Ground"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earth Power *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Gengar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gengar-mega",
+        "types": ["Ghost", "Poison"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Lick *",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Gardevoir",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gardevoir-mega",
+        "types": ["Psychic", "Fairy"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Fairy",
+            "fast_attack": "Charm",
+            "charged_attack": "Dazzling Gleam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Y Charizard",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/charizard-y-mega",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Heracross",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/heracross-mega",
+        "types": ["Bug", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Struggle Bug",
+            "charged_attack": "Megahorn"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Shadow Mewtwo",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mewtwo",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Psycho Cut",
+            "charged_attack": "Psystrike *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Salamence",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/salamence",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Rhyperior",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rhyperior",
+        "types": ["Ground", "Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Rock Wrecker *"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Mamoswine",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mamoswine",
+        "types": ["Ice", "Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "High Horsepower"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Powder Snow",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Chandelure",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/chandelure",
+        "types": ["Ghost", "Fire"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Tyranitar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tyranitar",
+        "types": ["Rock", "Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Brutal Swing"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down *",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Rayquaza",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rayquaza",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Air Slash",
+            "charged_attack": "Dragon Ascent"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Terrakion",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/terrakion",
+        "types": ["Rock", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Double Kick",
+            "charged_attack": "Sacred Sword *"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Rock Slide"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ],
+    "A+ Tier": [
+      {
+        "name": "Mega Latios",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/latios-mega",
+        "types": ["Dragon", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Sceptile",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sceptile-mega",
+        "types": ["Grass", "Dragon"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Swampert",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/swampert-mega",
+        "types": ["Water", "Ground"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Hydro Cannon *"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Diancie",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/diancie-mega",
+        "types": ["Rock", "Fairy"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Rock Slide"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Aerodactyl",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/aerodactyl-mega",
+        "types": ["Rock", "Flying"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Rock Slide"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Houndoom",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/houndoom-mega",
+        "types": ["Dark", "Fire"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Foul Play"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Flamethrower"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Gyarados",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gyarados-mega",
+        "types": ["Water", "Dark"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Hydro Pump"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Crunch"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Ampharos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ampharos-mega",
+        "types": ["Electric", "Dragon"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Volt Switch",
+            "charged_attack": "Zap Cannon"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega X Charizard",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/charizard-x-mega",
+        "types": ["Fire", "Dragon"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath *",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Shadow Groudon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/groudon",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Precipice Blades *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Excadrill",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/excadrill",
+        "types": ["Ground", "Steel"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Scorching Sands"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Blaziken",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/blaziken",
+        "types": ["Fire", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Moltres",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/moltres",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Wing Attack",
+            "charged_attack": "Sky Attack *"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Rampardos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rampardos",
+        "types": ["Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Rock Slide"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Ho-Oh",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ho-oh",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Sacred Fire *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Metagross",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/metagross",
+        "types": ["Steel", "Psychic"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Bullet Punch",
+            "charged_attack": "Meteor Mash *"
+          },
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Garchomp",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/garchomp",
+        "types": ["Dragon", "Ground"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earth Power *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Zapdos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zapdos",
+        "types": ["Electric", "Flying"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock *",
+            "charged_attack": "Thunderbolt"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Weavile",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/weavile",
+        "types": ["Dark", "Ice"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Foul Play"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Ice Shard",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Entei",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/entei",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Honchkrow",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/honchkrow",
+        "types": ["Dark", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Peck",
+            "charged_attack": "Sky Attack"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Standard Mode Shadow Darmanitan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/darmanitan-standard",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Mewtwo",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mewtwo",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Psycho Cut",
+            "charged_attack": "Psystrike *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Apex Shadow Ho-Oh",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/apex  ho-oh",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Sacred Fire+"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Blacephalon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/blacephalon",
+        "types": ["Fire", "Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Astonish",
+            "charged_attack": "Shadow Ball"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Mystical Fire"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Reshiram",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/reshiram",
+        "types": ["Dragon", "Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Fusion Flare *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Draco Meteor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Rhyperior",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rhyperior",
+        "types": ["Ground", "Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Rock Wrecker *"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Xurkitree",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/xurkitree",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock",
+            "charged_attack": "Discharge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Yveltal",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/yveltal",
+        "types": ["Dark", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Gust",
+            "charged_attack": "Oblivion Wing *"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Incarnate Forme Enamorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/incarnate-enamorus",
+        "types": ["Fairy", "Flying"],
+        "attacks": [
+          {
+            "type": "Fairy",
+            "fast_attack": "Fairy Wind",
+            "charged_attack": "Dazzling Gleam"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ],
+    "A Tier": [
+      {
+        "name": "Shadow Gengar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gengar",
+        "types": ["Ghost", "Poison"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Lick *",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Raikou",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/raikou",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Alakazam",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/alakazam",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Latios",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/latios",
+        "types": ["Dragon", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Arcanine",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/arcanine",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Flamethrower"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Kyogre",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kyogre",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Origin Pulse *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Machamp",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/machamp",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Magnezone",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/magnezone",
+        "types": ["Electric", "Steel"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Wild Charge"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Sound",
+            "charged_attack": "Flash Cannon"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Sirfetch'd",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sirfetch'd",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Dragonite",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/dragonite",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Swampert",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/swampert",
+        "types": ["Water", "Ground"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Hydro Cannon *"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Regigigas",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/regigigas",
+        "types": ["Normal"],
+        "attacks": [
+          {
+            "type": "Normal",
+            "fast_attack": "Hidden Power",
+            "charged_attack": "Giga Impact"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Magmortar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/magmortar",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Fire Blast"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Electivire",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/electivire",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Gardevoir",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gardevoir",
+        "types": ["Psychic", "Fairy"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Fairy",
+            "fast_attack": "Charm",
+            "charged_attack": "Dazzling Gleam"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Toxicroak",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/toxicroak",
+        "types": ["Poison", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          },
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Bomb"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Ursaluna",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ursaluna",
+        "types": ["Ground", "Normal"],
+        "attacks": [
+          {
+            "type": "Normal",
+            "fast_attack": "Tackle",
+            "charged_attack": "Swift"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Infernape",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/infernape",
+        "types": ["Fire", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Rock Smash",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Aggron",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/aggron",
+        "types": ["Steel", "Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Meteor Beam"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Iron Tail",
+            "charged_attack": "Heavy Slam"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Charizard",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/charizard",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Salamence",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/salamence",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Therian Forme Landorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/therian-landorus",
+        "types": ["Ground", "Flying"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Sandsear Storm *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Heatran",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/heatran",
+        "types": ["Fire", "Steel"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Magma Storm *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Chandelure",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/chandelure",
+        "types": ["Ghost", "Fire"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Volcarona",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/volcarona",
+        "types": ["Bug", "Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Overheat"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Bug Bite",
+            "charged_attack": "Bug Buzz"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tyranitar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tyranitar",
+        "types": ["Rock", "Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Brutal Swing"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down *",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Mamoswine",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mamoswine",
+        "types": ["Ice", "Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "High Horsepower"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Powder Snow",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Zekrom",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zekrom",
+        "types": ["Dragon", "Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Charge Beam",
+            "charged_attack": "Fusion Bolt *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Outrage"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Keldeo (Ordinary Forme)",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/keldeo-ordinary",
+        "types": ["Water", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Sacred Sword"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Keldeo",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/keldeo",
+        "types": ["Water", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Sacred Sword"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Groudon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/groudon",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Precipice Blades *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Origin Forme Dialga",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/origin-dialga",
+        "types": ["Steel", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Roar of Time *"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Zarude",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zarude",
+        "types": ["Dark", "Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Power Whip"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Excadrill",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/excadrill",
+        "types": ["Ground", "Steel"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Scorching Sands"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Kartana",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kartana",
+        "types": ["Grass", "Steel"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Razor Leaf",
+            "charged_attack": "Leaf Blade"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Pheromosa",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/pheromosa",
+        "types": ["Bug", "Fighting"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Bug Bite",
+            "charged_attack": "Bug Buzz"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hoopa Unbound",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hoopa-unbound",
+        "types": ["Psychic", "Dark"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Dusk Mane Necrozma",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/dusk mane necrozma",
+        "types": ["Psychic", "Steel"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Psycho Cut",
+            "charged_attack": "Future Sight"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Rampardos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rampardos",
+        "types": ["Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Rock Slide"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Garchomp",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/garchomp",
+        "types": ["Dragon", "Ground"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earth Power *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ],
+    "B+ Tier": [
+      {
+        "name": "Mega Pidgeot",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/pidgeot-mega",
+        "types": ["Normal", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Wing Attack *",
+            "charged_attack": "Brave Bird"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Venusaur",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/venusaur-mega",
+        "types": ["Grass", "Poison"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Blastoise",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/blastoise-mega",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Hydro Cannon *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Scizor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/scizor-mega",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Bullet Punch",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Banette",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/banette-mega",
+        "types": ["Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Shadow Claw",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Lopunny",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/lopunny-mega",
+        "types": ["Normal", "Fighting"],
+        "attacks": [
+          {
+            "type": "Normal",
+            "fast_attack": "Pound",
+            "charged_attack": "Hyper Beam"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Double Kick",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Manectric",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/manectric-mega",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Fang",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Beedrill",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/beedrill-mega",
+        "types": ["Bug", "Poison"],
+        "attacks": [
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Bomb"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Bug Bite *",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Pinsir",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/pinsir-mega",
+        "types": ["Bug", "Flying"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Bug Bite",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Latias",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/latias-mega",
+        "types": ["Dragon", "Psychic"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Outrage"
+          },
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Aggron",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/aggron-mega",
+        "types": ["Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Iron Tail",
+            "charged_attack": "Heavy Slam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Shadow Hariyama",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hariyama",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Exeggutor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/exeggutor",
+        "types": ["Grass", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Solar Beam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Alolan Golem",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/golem-alola",
+        "types": ["Rock", "Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Volt Switch",
+            "charged_attack": "Wild Charge"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Golurk",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/golurk",
+        "types": ["Ground", "Ghost"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earth Power"
+          },
+          {
+            "type": "Ghost",
+            "fast_attack": "Astonish",
+            "charged_attack": "Poltergeist"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Staraptor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/staraptor",
+        "types": ["Normal", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Gust *",
+            "charged_attack": "Fly"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Gallade",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gallade",
+        "types": ["Psychic", "Fighting"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Empoleon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/empoleon",
+        "types": ["Water", "Steel"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Hydro Cannon *"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Steel Wing",
+            "charged_attack": "Flash Cannon"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Golem",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/golem",
+        "types": ["Rock", "Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Houndoom",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/houndoom",
+        "types": ["Dark", "Fire"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Foul Play"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Flamethrower"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Hippowdon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hippowdon",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Sand Attack",
+            "charged_attack": "Scorching Sands"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Typhlosion",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/typhlosion",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Blast Burn *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Kingler",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kingler",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Bubble",
+            "charged_attack": "Crabhammer"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Venusaur",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/venusaur",
+        "types": ["Grass", "Poison"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Torterra",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/torterra",
+        "types": ["Grass", "Ground"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Razor Leaf",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Sceptile",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sceptile",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Aerodactyl",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/aerodactyl",
+        "types": ["Rock", "Flying"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Rock Slide"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Victreebel",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/victreebel",
+        "types": ["Grass", "Poison"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Magical Leaf *",
+            "charged_attack": "Leaf Blade"
+          },
+          {
+            "type": "Poison",
+            "fast_attack": "Acid",
+            "charged_attack": "Sludge Bomb"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Tangrowth",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tangrowth",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Power Whip"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Luxray",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/luxray",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Porygon-Z",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/porygon-z",
+        "types": ["Normal"],
+        "attacks": [
+          {
+            "type": "Normal",
+            "fast_attack": "Lock-On",
+            "charged_attack": "Hyper Beam"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Moltres",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/moltres",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Wing Attack",
+            "charged_attack": "Sky Attack *"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Lucario",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/lucario",
+        "types": ["Fighting", "Steel"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Aura Sphere"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Therian Forme Thundurus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/therian-thundurus",
+        "types": ["Electric", "Flying"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Volt Switch",
+            "charged_attack": "Wildbolt Storm *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Metagross",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/metagross",
+        "types": ["Steel", "Psychic"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Bullet Punch",
+            "charged_attack": "Meteor Mash *"
+          },
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Blaziken",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/blaziken",
+        "types": ["Fire", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Conkeldurr",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/conkeldurr",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Marshadow",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mar",
+        "types": ["Fighting", "Ghost"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tapu Bulu",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tapu-bulu",
+        "types": ["Grass", "Fairy"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Grass Knot"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Baxcalibur",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/baxcalibur",
+        "types": ["Dragon", "Ice"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Outrage"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Ice Fang",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Lunala",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/lunala",
+        "types": ["Psychic", "Ghost"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Sky Forme Shaymin",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sky-shaymin",
+        "types": ["Grass", "Flying"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Magical Leaf",
+            "charged_attack": "Grass Knot"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tyrantrum",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tyrantrum",
+        "types": ["Rock", "Dragon"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Meteor Beam"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Incarnate Forme Landorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/incarnate-landorus",
+        "types": ["Ground", "Flying"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earth Power"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Landorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/landorus",
+        "types": ["Ground", "Flying"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earth Power"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Standard Mode Darmanitan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/darmanitan-standard",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Roserade",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/roserade",
+        "types": ["Grass", "Poison"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Magical Leaf",
+            "charged_attack": "Grass Knot"
+          },
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Bomb"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Therian Forme Enamorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/therian-enamorus",
+        "types": ["Fairy", "Flying"],
+        "attacks": [
+          {
+            "type": "Fairy",
+            "fast_attack": "Fairy Wind",
+            "charged_attack": "Dazzling Gleam"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Dawn Wings Necrozma",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/dawn wings necrozma",
+        "types": ["Psychic", "Ghost"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Psycho Cut",
+            "charged_attack": "Future Sight"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Darmanitan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/darmanitan-standard",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ],
+    "B Tier": [
+      {
+        "name": "Mega Abomasnow",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/abomasnow-mega",
+        "types": ["Grass", "Ice"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Powder Snow",
+            "charged_attack": "Weather Ball"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Leafage",
+            "charged_attack": "Energy Ball"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Absol",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/absol-mega",
+        "types": ["Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Mega Glalie",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/glalie-mega",
+        "types": ["Ice"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Frost Breath",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Shadow Sneasler",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sneasler",
+        "types": ["Fighting", "Poison"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Rock Smash",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Rhydon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rhydon",
+        "types": ["Ground", "Rock"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Feraligatr",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/feraligatr",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun *",
+            "charged_attack": "Hydro Cannon *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Cursola",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/cursola",
+        "types": ["Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Scizor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/scizor",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Bullet Punch",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Alolan Exeggutor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/exeggutor-alola",
+        "types": ["Grass", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Draco Meteor *"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Solar Beam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Shiftry",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/shiftry",
+        "types": ["Grass", "Dark"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Razor Leaf",
+            "charged_attack": "Leaf Blade"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Foul Play"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Crawdaunt",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/crawdaunt",
+        "types": ["Water", "Dark"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Crabhammer"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Night Slash"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Gyarados",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gyarados",
+        "types": ["Water", "Flying"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Hydro Pump"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Lugia",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/lugia",
+        "types": ["Psychic", "Flying"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Extrasensory",
+            "charged_attack": "Future Sight"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Mr. Rime",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mr. rime",
+        "types": ["Ice", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Ice Shard",
+            "charged_attack": "Triple Axel"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Donphan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/donphan",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Cacturne",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/cacturne",
+        "types": ["Grass", "Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Sucker Punch",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Manectric",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/manectric",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Fang",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Flygon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/flygon",
+        "types": ["Ground", "Dragon"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Sand Attack",
+            "charged_attack": "Scorching Sands"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Omastar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/omastar",
+        "types": ["Rock", "Water"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw *",
+            "charged_attack": "Rock Slide *"
+          },
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Hydro Pump"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Unfezant",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/unfezant",
+        "types": ["Normal", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Air Slash",
+            "charged_attack": "Sky Attack"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Latias",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/latias",
+        "types": ["Dragon", "Psychic"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Outrage"
+          },
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Zebstrika",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zebstrika",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hoopa Confined",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hoopa",
+        "types": ["Psychic", "Ghost"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Ghost",
+            "fast_attack": "Astonish",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Galarian Standard Mode Darmanitan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/darmanitan-galar-standard",
+        "types": ["Ice"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Ice Fang",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Origin Forme Palkia",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/origin-palkia",
+        "types": ["Water", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Spacial Rend *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Ho-Oh",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ho-oh",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Sacred Fire *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Incineroar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/incineroar",
+        "types": ["Fire", "Dark"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Darkest Lariat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Emboar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/emboar",
+        "types": ["Fire", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Ember",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Darkrai",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/darkrai",
+        "types": ["Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Breloom",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/breloom",
+        "types": ["Grass", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Grass Knot *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hydreigon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hydreigon",
+        "types": ["Dark", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Brutal Swing *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Dragon Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Kyogre",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kyogre",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Origin Pulse *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tapu Koko",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tapu-koko",
+        "types": ["Electric", "Fairy"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Volt Switch",
+            "charged_attack": "Thunderbolt"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Zapdos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zapdos",
+        "types": ["Electric", "Flying"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock *",
+            "charged_attack": "Thunderbolt"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Raikou",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/raikou",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Machamp",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/machamp",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Origin Forme Giratina",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/origin-giratina",
+        "types": ["Ghost", "Dragon"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Shadow Claw",
+            "charged_attack": "Shadow Force *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Dragon Pulse"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Nihilego",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/nihilego",
+        "types": ["Rock", "Poison"],
+        "attacks": [
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Bomb"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Entei",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/entei",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hisuian Decidueye",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/decidueye-hisui",
+        "types": ["Grass", "Fighting"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Magical Leaf",
+            "charged_attack": "Trailblaze"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Gigalith",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gigalith",
+        "types": ["Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Meteor Beam *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Galarian Zapdos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zapdos-galar",
+        "types": ["Fighting", "Flying"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Weavile",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/weavile",
+        "types": ["Dark", "Ice"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Foul Play"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Ice Shard",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Magnezone",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/magnezone",
+        "types": ["Electric", "Steel"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Wild Charge"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Sound",
+            "charged_attack": "Flash Cannon"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Gholdengo",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gholdengo",
+        "types": ["Steel", "Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Dialga",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/dialga",
+        "types": ["Steel", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Draco Meteor"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Cobalion",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/cobalion",
+        "types": ["Steel", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Double Kick",
+            "charged_attack": "Sacred Sword *"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Genesect (Chill Drive)",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon-form/10078",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Magnet Bomb"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Kyurem",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kyurem",
+        "types": ["Dragon", "Ice"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Draco Meteor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Electivire",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/electivire",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Virizion",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/virizion",
+        "types": ["Grass", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Double Kick",
+            "charged_attack": "Sacred Sword *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Gengar",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gengar",
+        "types": ["Ghost", "Poison"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Lick *",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Buzzwole",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/buzzwole",
+        "types": ["Bug", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Superpower"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Swampert",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/swampert",
+        "types": ["Water", "Ground"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Hydro Cannon *"
+          },
+          {
+            "type": "Ground",
+            "fast_attack": "Mud Shot",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Vikavolt",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/vikavolt",
+        "types": ["Bug", "Electric"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Bug Bite",
+            "charged_attack": "X-Scissor"
+          },
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Discharge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Pirouette Forme Meloetta",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/meloetta-pirouette",
+        "types": ["Normal", "Fighting"],
+        "attacks": [
+          {
+            "type": "Normal",
+            "fast_attack": "Quick Attack",
+            "charged_attack": "Hyper Beam"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Chesnaught",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/chesnaught",
+        "types": ["Grass", "Fighting"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Frenzy Plant *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Superpower"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Meowscarada",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/meowscarada",
+        "types": ["Grass", "Dark"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Leafage",
+            "charged_attack": "Grass Knot"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Genesect (Burn Drive)",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon-form/10077",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Magnet Bomb"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Genesect (Shock Drive)",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon-form/10076",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Magnet Bomb"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ],
+    "C Tier": [
+      {
+        "name": "Mega Slowbro",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/slowbro-mega",
+        "types": ["Water", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Surf *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Shadow Magneton",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/magneton",
+        "types": ["Electric", "Steel"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Thunder Shock",
+            "charged_attack": "Discharge"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Sound",
+            "charged_attack": "Magnet Bomb"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Poliwrath",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/poliwrath",
+        "types": ["Water", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter *",
+            "charged_attack": "Dynamic Punch"
+          },
+          {
+            "type": "Water",
+            "fast_attack": "Bubble",
+            "charged_attack": "Hydro Pump"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Vileplume",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/vileplume",
+        "types": ["Grass", "Poison"],
+        "attacks": [
+          {
+            "type": "Poison",
+            "fast_attack": "Acid",
+            "charged_attack": "Sludge Bomb"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Razor Leaf",
+            "charged_attack": "Solar Beam"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Pinsir",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/pinsir",
+        "types": ["Bug"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Bug Bite",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Banette",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/banette",
+        "types": ["Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Shadow Claw",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Meganium",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/meganium",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": true
+      },
+      {
+        "name": "Shadow Sawk",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sawk",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Focus Blast"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Absol",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/absol",
+        "types": ["Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Articuno",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/articuno",
+        "types": ["Ice", "Flying"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Frost Breath",
+            "charged_attack": "Triple Axel"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Scyther",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/scyther",
+        "types": ["Bug", "Flying"],
+        "attacks": [
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "Bug Buzz *"
+          },
+          {
+            "type": "Flying",
+            "fast_attack": "Air Slash",
+            "charged_attack": "Aerial Ace"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Sharpedo",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sharpedo",
+        "types": ["Water", "Dark"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Crunch"
+          },
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Hydro Pump"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Granbull",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/granbull",
+        "types": ["Fairy"],
+        "attacks": [
+          {
+            "type": "Fairy",
+            "fast_attack": "Charm",
+            "charged_attack": "Play Rough"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Nidoking",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/nidoking",
+        "types": ["Poison", "Ground"],
+        "attacks": [
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Wave"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Decidueye",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/decidueye",
+        "types": ["Grass", "Ghost"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Leafage",
+            "charged_attack": "Frenzy Plant *"
+          },
+          {
+            "type": "Ghost",
+            "fast_attack": "Astonish",
+            "charged_attack": "Spirit Shackle"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Delphox",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/delphox",
+        "types": ["Fire", "Psychic"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Greninja",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/greninja",
+        "types": ["Water", "Dark"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Shuriken",
+            "charged_attack": "Hydro Cannon *"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Feint Attack",
+            "charged_attack": "Night Slash"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Genesect",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon-form/649",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Magnet Bomb"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Genesect (Douse Drive)",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon-form/10075",
+        "types": ["Bug", "Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Magnet Bomb"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Fury Cutter",
+            "charged_attack": "X-Scissor"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tapu Lele",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tapu-lele",
+        "types": ["Psychic", "Fairy"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Future Sight"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hawlucha",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hawlucha",
+        "types": ["Fighting", "Flying"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Flying Press"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Victini",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/victini",
+        "types": ["Psychic", "Fire"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hariyama",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hariyama",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Staraptor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/staraptor",
+        "types": ["Normal", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Gust *",
+            "charged_attack": "Fly"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Melmetal",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/melmetal",
+        "types": ["Steel"],
+        "attacks": [],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Latios",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/latios",
+        "types": ["Dragon", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Therian Forme Tornadus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/therian-tornadus",
+        "types": ["Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Gust",
+            "charged_attack": "Bleakwind Storm *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Galarian Articuno",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/articuno-galar",
+        "types": ["Psychic", "Flying"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Psycho Cut",
+            "charged_attack": "Future Sight"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hisuian Typhlosion",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/typhlosion-hisui",
+        "types": ["Fire", "Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          },
+          {
+            "type": "Fire",
+            "fast_attack": "Ember",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tsareena",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tsareena",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Magical Leaf",
+            "charged_attack": "Grass Knot"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Kingler",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/kingler",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Bubble",
+            "charged_attack": "Crabhammer"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Jirachi",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/jirachi",
+        "types": ["Steel", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Haxorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/haxorus",
+        "types": ["Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Breaking Swipe *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Celebi",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/celebi",
+        "types": ["Psychic", "Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Magical Leaf *",
+            "charged_attack": "Leaf Storm"
+          },
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Aurorus",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/aurorus",
+        "types": ["Rock", "Ice"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Meteor Beam"
+          },
+          {
+            "type": "Ice",
+            "fast_attack": "Frost Breath",
+            "charged_attack": "Weather Ball"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Sceptile",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sceptile",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Charizard",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/charizard",
+        "types": ["Fire", "Flying"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Honchkrow",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/honchkrow",
+        "types": ["Dark", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Peck",
+            "charged_attack": "Sky Attack"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Krookodile",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/krookodile",
+        "types": ["Ground", "Dark"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Crunch"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Naganadel",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/naganadel",
+        "types": ["Poison", "Dragon"],
+        "attacks": [
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Bomb"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Luxray",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/luxray",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Wild Charge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Alakazam",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/alakazam",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Psycho Cut",
+            "charged_attack": "Psychic *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Guzzlord",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/guzzlord",
+        "types": ["Dark", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Brutal Swing"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Xerneas",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/xerneas",
+        "types": ["Fairy"],
+        "attacks": [
+          {
+            "type": "Fairy",
+            "fast_attack": "Geomancy *",
+            "charged_attack": "Moonblast"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Aggron",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/aggron",
+        "types": ["Steel", "Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Smack Down",
+            "charged_attack": "Meteor Beam"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Iron Tail",
+            "charged_attack": "Heavy Slam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Tangrowth",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tangrowth",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Power Whip"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Rhydon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/rhydon",
+        "types": ["Ground", "Rock"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Zacian (Hero of Many Battles)",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/zacian",
+        "types": ["Fairy"],
+        "attacks": [],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Braviary",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/braviary",
+        "types": ["Normal", "Flying"],
+        "attacks": [
+          {
+            "type": "Flying",
+            "fast_attack": "Air Slash",
+            "charged_attack": "Fly"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Samurott",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/samurott",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Hydro Cannon *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ],
+    "D Tier": [
+      {
+        "name": "Shadow Mismagius",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/mismagius",
+        "types": ["Ghost"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Drifblim",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/drifblim",
+        "types": ["Ghost", "Flying"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Hex",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Ursaring",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ursaring",
+        "types": ["Normal"],
+        "attacks": [],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Haunter",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/haunter",
+        "types": ["Ghost", "Poison"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Lick *",
+            "charged_attack": "Shadow Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Blastoise",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/blastoise",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Hydro Cannon *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Alolan Muk",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/muk-alola",
+        "types": ["Poison", "Dark"],
+        "attacks": [
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Gunk Shot"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Bite",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Ampharos",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ampharos",
+        "types": ["Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Volt Switch",
+            "charged_attack": "Zap Cannon"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Tangela",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/tangela",
+        "types": ["Grass"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Power Whip *"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Regirock",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/regirock",
+        "types": ["Rock"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Sandslash",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sandslash",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Sand Attack",
+            "charged_attack": "Scorching Sands"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Shadow Abomasnow",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/abomasnow",
+        "types": ["Grass", "Ice"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Powder Snow",
+            "charged_attack": "Weather Ball"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Leafage",
+            "charged_attack": "Energy Ball"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": true,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Togekiss",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/togekiss",
+        "types": ["Fairy", "Flying"],
+        "attacks": [
+          {
+            "type": "Fairy",
+            "fast_attack": "Charm",
+            "charged_attack": "Dazzling Gleam"
+          },
+          {
+            "type": "Flying",
+            "fast_attack": "Air Slash",
+            "charged_attack": "Aerial Ace"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Empoleon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/empoleon",
+        "types": ["Water", "Steel"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Waterfall",
+            "charged_attack": "Hydro Cannon *"
+          },
+          {
+            "type": "Steel",
+            "fast_attack": "Steel Wing",
+            "charged_attack": "Flash Cannon"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Heracross",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/heracross",
+        "types": ["Bug", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          },
+          {
+            "type": "Bug",
+            "fast_attack": "Struggle Bug",
+            "charged_attack": "Megahorn"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Annihilape",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/annihilape",
+        "types": ["Fighting", "Ghost"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Golurk",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/golurk",
+        "types": ["Ground", "Ghost"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earth Power"
+          },
+          {
+            "type": "Ghost",
+            "fast_attack": "Astonish",
+            "charged_attack": "Poltergeist"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Golem",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/golem",
+        "types": ["Rock", "Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Venusaur",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/venusaur",
+        "types": ["Grass", "Poison"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Vine Whip",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Gardevoir",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/gardevoir",
+        "types": ["Psychic", "Fairy"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Fairy",
+            "fast_attack": "Charm",
+            "charged_attack": "Dazzling Gleam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hisuian Arcanine",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/arcanine-hisui",
+        "types": ["Fire", "Rock"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Fang",
+            "charged_attack": "Flamethrower"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Toxicroak",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/toxicroak",
+        "types": ["Poison", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Dynamic Punch"
+          },
+          {
+            "type": "Poison",
+            "fast_attack": "Poison Jab",
+            "charged_attack": "Sludge Bomb"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Exeggutor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/exeggutor",
+        "types": ["Grass", "Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Solar Beam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Cetitan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/cetitan",
+        "types": ["Ice"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Powder Snow",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Sirfetch'd",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/sirfetch'd",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Glaceon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/glaceon",
+        "types": ["Ice"],
+        "attacks": [
+          {
+            "type": "Ice",
+            "fast_attack": "Frost Breath",
+            "charged_attack": "Avalanche"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Passimian",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/passimian",
+        "types": ["Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Counter",
+            "charged_attack": "Superpower"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Alolan Golem",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/golem-alola",
+        "types": ["Rock", "Electric"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Volt Switch",
+            "charged_attack": "Wild Charge"
+          },
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Feraligatr",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/feraligatr",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun *",
+            "charged_attack": "Hydro Cannon *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Ceruledge",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ceruledge",
+        "types": ["Fire", "Ghost"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Flamethrower"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Torterra",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/torterra",
+        "types": ["Grass", "Ground"],
+        "attacks": [
+          {
+            "type": "Grass",
+            "fast_attack": "Razor Leaf",
+            "charged_attack": "Frenzy Plant *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Palkia",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/palkia",
+        "types": ["Water", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Draco Meteor"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Flareon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/flareon",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Overheat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Deoxys",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/deoxys",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psycho Boost"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Hippowdon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/hippowdon",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Sand Attack",
+            "charged_attack": "Scorching Sands"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Altered Forme Giratina",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/altered-giratina",
+        "types": ["Ghost", "Dragon"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Shadow Claw",
+            "charged_attack": "Shadow Force *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Clawitzer",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/clawitzer",
+        "types": ["Water"],
+        "attacks": [
+          {
+            "type": "Water",
+            "fast_attack": "Water Gun",
+            "charged_attack": "Crabhammer"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Ursaluna",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/ursaluna",
+        "types": ["Ground", "Normal"],
+        "attacks": [
+          {
+            "type": "Normal",
+            "fast_attack": "Tackle",
+            "charged_attack": "Swift"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Infernape",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/infernape",
+        "types": ["Fire", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Fire Spin",
+            "charged_attack": "Blast Burn *"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Rock Smash",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Bewear",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/bewear",
+        "types": ["Normal", "Fighting"],
+        "attacks": [
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Superpower"
+          },
+          { "type": "Normal",
+            "fast_attack": "Tackle",
+            "charged_attack": "Stomp"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Giratina",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/giratina",
+        "types": ["Ghost", "Dragon"],
+        "attacks": [
+          {
+            "type": "Ghost",
+            "fast_attack": "Shadow Claw",
+            "charged_attack": "Shadow Force *"
+          },
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Breath",
+            "charged_attack": "Dragon Claw"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Espeon",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/espeon",
+        "types": ["Psychic"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Confusion",
+            "charged_attack": "Psychic"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Pawmot",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/pawmot",
+        "types": ["Electric", "Fighting"],
+        "attacks": [
+          {
+            "type": "Electric",
+            "fast_attack": "Spark",
+            "charged_attack": "Wild Charge"
+          },
+          {
+            "type": "Fighting",
+            "fast_attack": "Low Kick",
+            "charged_attack": "Close Combat"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Archeops",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/archeops",
+        "types": ["Rock", "Flying"],
+        "attacks": [],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Donphan",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/donphan",
+        "types": ["Ground"],
+        "attacks": [
+          {
+            "type": "Ground",
+            "fast_attack": "Mud-Slap",
+            "charged_attack": "Earthquake"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Typhlosion",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/typhlosion",
+        "types": ["Fire"],
+        "attacks": [
+          {
+            "type": "Fire",
+            "fast_attack": "Incinerate",
+            "charged_attack": "Blast Burn *"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Alolan Exeggutor",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/exeggutor-alola",
+        "types": ["Grass", "Dragon"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Draco Meteor *"
+          },
+          {
+            "type": "Grass",
+            "fast_attack": "Bullet Seed",
+            "charged_attack": "Solar Beam"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Solgaleo",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/solgaleo",
+        "types": ["Psychic", "Steel"],
+        "attacks": [
+          {
+            "type": "Psychic",
+            "fast_attack": "Zen Headbutt",
+            "charged_attack": "Psychic Fangs"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Stakataka",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/stakataka",
+        "types": ["Rock", "Steel"],
+        "attacks": [
+          {
+            "type": "Rock",
+            "fast_attack": "Rock Throw",
+            "charged_attack": "Stone Edge"
+          }
+        ],
+        "is_shiny_available": false,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Bisharp",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/bisharp",
+        "types": ["Dark", "Steel"],
+        "attacks": [
+          {
+            "type": "Steel",
+            "fast_attack": "Metal Claw",
+            "charged_attack": "Iron Head"
+          },
+          {
+            "type": "Dark",
+            "fast_attack": "Snarl",
+            "charged_attack": "Dark Pulse"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      },
+      {
+        "name": "Dragonite",
+        "poke_api": "https://pokeapi.co/api/v2/pokemon/dragonite",
+        "types": ["Dragon", "Flying"],
+        "attacks": [
+          {
+            "type": "Dragon",
+            "fast_attack": "Dragon Tail",
+            "charged_attack": "Outrage"
+          }
+        ],
+        "is_shiny_available": true,
+        "is_shadow": false,
+        "is_mega_or_primal": false
+      }
+    ]
+  }
+  

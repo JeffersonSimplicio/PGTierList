@@ -15,13 +15,14 @@ export interface IPokeInfo {
 }
 
 interface IPokeTiers {
-    "S Tier": IPokeInfo[];
-    "A+ Tier": IPokeInfo[];
-    "A Tier": IPokeInfo[];
-    "B+ Tier": IPokeInfo[];
-    "B Tier": IPokeInfo[];
-    "C Tier": IPokeInfo[];
-    "D Tier": IPokeInfo[];
+  "S Tier": IPokeInfo[];
+  "A+ Tier": IPokeInfo[];
+  "A Tier": IPokeInfo[];
+  "B+ Tier": IPokeInfo[];
+  "B Tier": IPokeInfo[];
+  "C Tier": IPokeInfo[];
+  "D Tier": IPokeInfo[];
+  [key: string]: IPokeInfo[];
 }
 
 export default IPokeTiers;
