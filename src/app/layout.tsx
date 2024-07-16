@@ -21,9 +21,9 @@ export default function RootLayout({ children }: IRootLayout) {
   return (
     <html lang="pt-br">
       <body className={PS2P.className}>
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
