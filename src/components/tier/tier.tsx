@@ -1,3 +1,4 @@
+import PokeCell from "@/components/pokeCell/pokeCell";
 import {IPokeInfo} from '@/interfaces/pokeDataInterfaces';
 
 interface ITierInfo {
@@ -10,7 +11,7 @@ export default function Tier({name, pokeList}: ITierInfo) {
         <section>
             <h2>{name}</h2>
             {pokeList.map((poke, index) => (
-                <div key={index}>{poke.name}</div>
+                <PokeCell key={index} {...poke}/>
             ))}
         </section>
     );
