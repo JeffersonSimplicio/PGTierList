@@ -1,18 +1,18 @@
-import PokeCell from "@/components/pokeCell/pokeCell";
-import {IPokeInfo} from '@/interfaces/pokeDataInterfaces';
+import { IPokeInfo } from "@/interfaces";
+import { PokeCell } from "@/components";
 
 interface ITierInfo {
-    name: string;
-    pokeList: IPokeInfo[]
+  name: string;
+  pokeList: IPokeInfo[];
 }
 
-export default function Tier({name, pokeList}: ITierInfo) {
-    return (
-        <section>
-            <h2>{name}</h2>
-            {pokeList.map((poke, index) => (
-                <PokeCell key={index} {...poke}/>
-            ))}
-        </section>
-    );
-} 
+export function Tier({ name, pokeList }: ITierInfo) {
+  return (
+    <section>
+      <h2>{name}</h2>
+      {pokeList.map((poke, index) => (
+        <PokeCell key={index} {...poke} />
+      ))}
+    </section>
+  );
+}

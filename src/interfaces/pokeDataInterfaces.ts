@@ -14,7 +14,7 @@ export interface IPokeInfo {
   is_mega_or_primal: boolean;
 }
 
-interface IPokeTiers {
+export interface IPokeTiers {
   "S Tier": IPokeInfo[];
   "A+ Tier": IPokeInfo[];
   "A Tier": IPokeInfo[];
@@ -24,5 +24,3 @@ interface IPokeTiers {
   "D Tier": IPokeInfo[];
   [key: string]: IPokeInfo[];
 }
-
-export default IPokeTiers;

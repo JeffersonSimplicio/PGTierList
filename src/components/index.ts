@@ -1,0 +1,5 @@
+export * from "@/components/header";
+export * from "@/components/footer";
+export * from "@/components/tier";
+export * from "@/components/pokeCell";
+export * from "@/components/loading";

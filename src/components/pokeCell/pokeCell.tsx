@@ -8,7 +8,7 @@ interface PokeProps {
   poke_api: string;
 }
 
-function PokeCell({ name, poke_api }: PokeProps) {
+export const PokeCell = memo(function PokeCell({ name, poke_api }: PokeProps) {
   const imageDescription = `Imagem do Pokemon ${name}`;
   const [imageSrc, setImageSrc] = useState<string>("/whoIsThatPokemon.png");
   const [loading, setLoading] = useState<boolean>(true);
@@ -32,7 +32,13 @@ function PokeCell({ name, poke_api }: PokeProps) {
     <Link href="/">
       <div>
         {loading ? (
-          <Image src="/loading.gif" alt="Carregando" width={128} height={128} />
+          <Image
+            src="/loading.gif"
+            alt="Carregando"
+            width={128}
+            height={128}
+            unoptimized
+          />
         ) : (
           <Image
             src={imageSrc}
@@ -46,6 +52,4 @@ function PokeCell({ name, poke_api }: PokeProps) {
       </div>
     </Link>
   );
-}
-
-export default memo(PokeCell);
+});
