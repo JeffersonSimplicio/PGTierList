@@ -4,7 +4,6 @@ import { Suspense } from "react";
 import { IPokeTiers } from "@/interfaces";
 import { Tier, Loading } from "@/components";
 
-// Adicionar a um Context API futuramente
 async function getData(): Promise<IPokeTiers> {
   const filePath = path.join(process.cwd(), "public", "pokeTiers.json");
   const jsonString = await fs.readFile(filePath, "utf-8");

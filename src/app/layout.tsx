@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import { Header, Footer } from "@/components";
-import { Providers } from "@/providers";
 
 const PS2P = Press_Start_2P({
   subsets: ["latin"],
@@ -21,11 +20,9 @@ export default function RootLayout({ children }: IRootLayout) {
   return (
     <html lang="pt-br">
       <body className={PS2P.className}>
-        <Providers>
-          <Header />
-          {children}
-          <Footer />
-        </Providers>
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   );
