@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { IPokeTiers, IPokeType } from "@/interfaces";
+import { IPokeTier, IPokeType } from "@/interfaces";
 import { Tier, Loading, CheckboxFilter } from "@/components";
 import { getData, filterByTier } from "@/utils";
 
@@ -9,7 +9,7 @@ interface IqueryParamsTypes {
 }
 
 export default async function Home({ searchParams }: {searchParams?: IqueryParamsTypes}) {
-  const allData = await getData<IPokeTiers>("pokeTiers.json");
+  const allData = await getData<IPokeTier>("pokeTiers.json");
   const typesPokemon = await getData<IPokeType>("typesPokemon.json");
 
   const dataFilteredByTier = filterByTier(allData, searchParams?.tiers);

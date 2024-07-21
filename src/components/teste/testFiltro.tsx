@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from 'react';
-import { IPokeType, IPokeTiers } from "@/interfaces";
+import { IPokeTier, IPokeType } from "@/interfaces";
 
-type Props = IPokeTiers | IPokeType;
+type Props = IPokeTier | IPokeType;
 
 function TypeCheckboxList({ typeDictionary }: {typeDictionary: Props}) {
   const [selectedTypes, setSelectedTypes] = useState<{ [key: string]: boolean }>({});

@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import { IPokeTiers, IPokeType } from "@/interfaces";
+import { IPokeTier, IPokeType } from "@/interfaces";
 
-type possibleTypes = IPokeTiers | IPokeType;
+type possibleTypes = IPokeTier | IPokeType;
 
 interface props {
   listOptions: possibleTypes;

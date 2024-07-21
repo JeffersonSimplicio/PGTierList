@@ -14,6 +14,6 @@ export interface IPokeInfo {
   is_mega_or_primal: boolean;
 }
 
-export interface IPokeTiers {
+export interface IPokeTier {
   [tier: string]: IPokeInfo[];
 }
