@@ -1,27 +1,31 @@
-import fs from "fs/promises";
-import path from "path";
 import { Suspense } from "react";
-import { IPokeTiers } from "@/interfaces";
-import { Tier, Loading } from "@/components";
+import { IPokeTiers, IPokeType } from "@/interfaces";
+import { Tier, Loading, CheckboxFilter } from "@/components";
+import { getData, filterByTier } from "@/utils";
 
-async function getData(): Promise<IPokeTiers> {
-  const filePath = path.join(process.cwd(), "public", "pokeTiers.json");
-  const jsonString = await fs.readFile(filePath, "utf-8");
-  const data: IPokeTiers = JSON.parse(jsonString);
-  // await new Promise(resolve => setTimeout(resolve, 2000));
-  return data;
+interface IqueryParamsTypes {
+  tiers?: string,
+  types?: string
 }
 
-export default async function Home() {
-  const data = await getData();
+export default async function Home({ searchParams }: {searchParams?: IqueryParamsTypes}) {
+  const allData = await getData<IPokeTiers>("pokeTiers.json");
+  const typesPokemon = await getData<IPokeType>("typesPokemon.json");
+
+  const dataFilteredByTier = filterByTier(allData, searchParams?.tiers);
+  
 
   return (
     <main>
-      <h1>Olá mundo</h1>
+      <span>Filtro de Tier</span>
+      <CheckboxFilter listOptions={allData} queryName="tiers"/>
+      {/* <span>Filtro de Tipo</span>
+      <CheckboxFilter listOptions={typesPokemon} queryName="types"/> */}
+      <h2>Lista de Pokemon</h2>
       <Suspense fallback={<Loading />}>
-        {data &&
-          Object.keys(data).map((key, index) => (
-            <Tier key={index} name={key} pokeList={data[key]} />
+        {dataFilteredByTier &&
+          Object.keys(dataFilteredByTier).map((key, index) => (
+            <Tier key={index} name={key} pokeList={dataFilteredByTier[key]} />
           ))}
       </Suspense>
     </main>
