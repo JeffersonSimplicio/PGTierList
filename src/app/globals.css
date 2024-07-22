@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: #2073BA;
+  --color-secondary: #FFCB08;
+  --color-accent: #ED1C24;
+  --color-neutral: #BABFD1;
+  --color-background: #E8E9ED;
+  --color-text: #333333;
+}
+  
+html,
+body {
+  @apply bg-background text-text w-screen h-screen;
+}
