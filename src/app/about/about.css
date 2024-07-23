@@ -1,0 +1,11 @@
+.main-about {
+    @apply flex flex-col items-center justify-center min-h-screen p-4 bg-background text-text
+}
+
+.title-page {
+    @apply text-4xl font-bold mb-4 text-primary
+}
+
+.paragraph-text {
+    @apply text-lg leading-relaxed max-w-2xl text-center
+}
