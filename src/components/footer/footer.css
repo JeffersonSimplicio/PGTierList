@@ -1,0 +1,11 @@
+.main-footer {
+    @apply bg-primary text-text py-4 mt-8
+}
+
+.main-conteiner {
+    @apply container mx-auto text-center
+}
+
+.nav-footer {
+    @apply flex justify-center space-x-4
+}
