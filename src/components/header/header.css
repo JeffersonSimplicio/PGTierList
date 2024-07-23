@@ -1,0 +1,27 @@
+.main-header {
+    @apply bg-primary text-white p-4 md:p-6 shadow-md
+}
+
+.big-screen {
+    @apply max-w-7xl mx-auto flex justify-between items-center
+}
+
+.title-website {
+    @apply text-2xl md:text-3xl font-bold text-secondary hover:text-accent transition-colors
+}
+
+.nav-pages {
+    @apply hidden md:flex space-x-4
+}
+
+.internal-link {
+    @apply text-lg text-white hover:text-secondary transition-colors
+}
+
+.button-hamburger {
+    @apply text-white focus:outline-none
+}
+
+.nav-hamburger {
+    @apply md:hidden bg-primary text-white p-4 space-y-2
+}
