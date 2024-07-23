@@ -1,0 +1,48 @@
+.main-poke-details {
+    @apply p-4 md:p-8 bg-white shadow-lg rounded-lg max-w-3xl mx-auto mt-10
+}
+
+.title-page {
+    @apply text-2xl font-bold text-primary mb-4 text-center
+}
+
+.name-poke {
+    @apply text-xl font-semibold text-secondary mb-4 text-center
+}
+
+.image-poke {
+    @apply drop-shadow-md
+    /* @apply rounded-md shadow-md */
+}
+
+.ranking-position {
+    @apply text-lg font-medium text-accent mb-2 text-center
+}
+
+.title-types {
+    @apply font-semibold text-lg mb-2 text-center
+}
+
+.types-container {
+    @apply flex flex-wrap gap-2 justify-center mb-4
+}
+
+.type-envelope {
+    @apply bg-neutral text-white px-3 py-1 rounded-full
+}
+
+.title-attack {
+    @apply text-2xl font-bold text-primary mb-4 text-center
+}
+
+.table-attack {
+    @apply min-w-full bg-white shadow-md rounded-lg overflow-hidden
+}
+
+.table-head {
+    @apply bg-secondary text-white
+}
+
+.th-head {
+    @apply py-2 px-4 text-left
+}
