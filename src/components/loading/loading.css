@@ -1,0 +1,11 @@
+.main-loading {
+    @apply flex flex-col items-center justify-center h-full py-20
+}
+
+.looping {
+    @apply w-16 h-16 border-4 border-primary border-t-transparent border-solid rounded-full animate-spin
+}
+
+.text-loading {
+    @apply text-xl text-primary mt-4
+}
