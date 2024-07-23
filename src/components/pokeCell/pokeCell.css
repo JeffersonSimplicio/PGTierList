@@ -1,0 +1,11 @@
+.poke-card {
+    @apply p-4 border rounded-lg shadow-md bg-white hover:bg-gray-100 transition-all duration-300
+}
+
+.poke-image {
+    @apply flex justify-center items-center h-32 w-32 mx-auto
+}
+
+.poke-name {
+    @apply text-center text-lg font-semibold mt-2
+}

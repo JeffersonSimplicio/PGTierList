@@ -2,14 +2,16 @@
 import { useState, useEffect, memo } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import "./pokeCell.css";
 
 interface PokeProps {
   name: string;
   poke_api: string;
+  tier: string;
 }
 
-export const PokeCell = memo(function PokeCell({ name, poke_api }: PokeProps) {
-  const imageDescription = `Imagem do Pokemon ${name}`;
+export const PokeCell = memo(function PokeCell({ name, poke_api, tier }: PokeProps) {
+  const imageDescription = `Imagem do Pokémon ${name}`;
   const [imageSrc, setImageSrc] = useState<string>("/whoIsThatPokemon.png");
   const [loading, setLoading] = useState<boolean>(true);
 
@@ -20,7 +22,7 @@ export const PokeCell = memo(function PokeCell({ name, poke_api }: PokeProps) {
         const data = await response.json();
         setImageSrc(data.sprites.other["official-artwork"].front_default);
       } catch (error) {
-        // console.error("Erro ao buscar a imagem:", error);
+        console.error("Erro ao buscar a imagem:", error);
       } finally {
         setLoading(false);
       }
@@ -29,26 +31,36 @@ export const PokeCell = memo(function PokeCell({ name, poke_api }: PokeProps) {
   }, [poke_api]);
 
   return (
-    <Link href="/">
-      <div>
+    <Link
+      href={`/pokemon/${tier.replace(" ", "_")}-${name.replace(" ", "_")}`}
+      target="_blank"
+      passHref
+    >
+      <div className="poke-card">
         {loading ? (
-          <Image
-            src="/loading.gif"
-            alt="Carregando"
-            width={128}
-            height={128}
-            unoptimized
-          />
+          <div className="poke-image">
+            <Image
+              src="/loading.gif"
+              alt="Carregando"
+              width={128}
+              height={128}
+              className="object-contain"
+              unoptimized
+            />
+          </div>
         ) : (
-          <Image
-            src={imageSrc}
-            title={imageDescription}
-            alt={imageDescription}
-            width={128}
-            height={128}
-          />
+          <div className="poke-image">
+            <Image
+              src={imageSrc}
+              title={imageDescription}
+              alt={imageDescription}
+              width={128}
+              height={128}
+              className="object-contain"
+            />
+          </div>
         )}
-        <h3>{name}</h3>
+        <h3 className="poke-name">{name}</h3>
       </div>
     </Link>
   );
