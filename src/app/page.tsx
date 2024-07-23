@@ -16,12 +16,14 @@ export default async function Home({ searchParams }: {searchParams?: IqueryParam
   const dataFilteredByType = filterByType(dataFilteredByTier, searchParams?.types);
 
   return (
-    <main>
-      <span>Filtro de Tier</span>
-      <CheckboxFilter listOptions={allData} queryName="tiers"/>
-      <span>Filtro de Tipo</span>
-      <CheckboxFilter listOptions={typesPokemon} queryName="types"/>
-      <h2>Lista de Pokemon</h2>
+    <main className="pr-4">
+      <div className="flex flex-col items-center gap-4 mb-4">
+        <div className="flex gap-4">
+          <CheckboxFilter listOptions={allData} queryName="tiers" text="Filtrar por Tier"/>
+          <CheckboxFilter listOptions={typesPokemon} queryName="types" text="Filtrar por Tipo"/>
+        </div>
+        <h2 className="text-2xl font-bold mb-4">Lista de Pokémon</h2>
+      </div>
       <Suspense fallback={<Loading />}>
         {dataFilteredByType &&
           Object.keys(dataFilteredByType).map((key, index) => (

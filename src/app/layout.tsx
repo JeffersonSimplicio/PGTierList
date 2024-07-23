@@ -19,9 +19,11 @@ interface IRootLayout extends Readonly<{ children: React.ReactNode }> {}
 export default function RootLayout({ children }: IRootLayout) {
   return (
     <html lang="pt-br">
-      <body className={PS2P.className}>
+      <body className={`${PS2P.className} overflow-x-hidden`}>
         <Header />
-        {children}
+        <main className="p-4 max-w-full overflow-x-hidden">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
