@@ -10,8 +10,31 @@
   --color-background: #E8E9ED;
   --color-text: #333333;
 }
-  
+
+/* Possibility to add dark mode in the future */
+/* html[dark] {
+  --color-primary-dark: #1E4A70;
+  --color-accent-dark: #C21807;
+  --color-neutral-dark: #4A4F54;
+  --color-secondary-dark: #FFA500;
+  --color-background-dark: #2E2E2E;
+  --color-text-dark: #E0E0E0;
+} */
+
 html,
 body {
   @apply bg-background text-text w-screen h-screen;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
 }
