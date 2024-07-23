@@ -1,0 +1,35 @@
+.contact-main {
+    @apply flex flex-col items-center justify-center min-h-screen p-4 bg-background text-text
+}
+
+.title-page {
+    @apply text-4xl font-bold mb-4 text-primary
+}
+
+.contact-message {
+    @apply text-lg leading-relaxed max-w-2xl text-center mb-4
+}
+
+.input-form {
+    @apply shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-2
+}
+
+.label-form {
+    @apply block text-sm font-medium text-primary mb-2
+}
+
+.send-message {
+    @apply w-full bg-primary text-white font-bold py-2 px-4 rounded-md hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
+}
+
+.contact-form {
+    @apply w-full max-w-lg mb-8
+}
+
+.social-nav {
+    @apply flex flex-col items-center space-y-4
+}
+
+.social-link {
+    @apply flex items-center space-x-2 text-primary hover:text-secondary;
+}
