@@ -7,15 +7,26 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
-  const linkLinkedIn = "https://www.linkedin.com/in/jefferson-simplicio/";
-  const linkGitHub = "https://github.com/JeffersonSimplicio";
-  const linkRepo = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
+  const LINK_LINKEDIN = "https://www.linkedin.com/in/jefferson-simplicio/";
+  const LINK_GITHUB = "https://github.com/JeffersonSimplicio";
+  const LINK_REPO = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
+
+  const MAX_NAME_LENGTH = 100;
+  const MAX_MESSAGE_LENGTH = 1000;
 
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  async function handleSubmit(e: FormEvent) {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
+
+    if (!name.trim() || !message.trim()) {
+      setIsSubmitting(false);
+      return;
+    }
+
     toast.info("Enviando...", { autoClose: false });
 
     try {
@@ -41,7 +52,11 @@ export default function Contact() {
       toast.dismiss();
       toast.error("Erro ao enviar a mensagem.");
     }
-  }
+
+    setIsSubmitting(false);
+  };
+
+  const isFormInvalid = !name.trim() || !message.trim();
 
   return (
     <main className="contact-main">
@@ -63,6 +78,7 @@ export default function Contact() {
             placeholder="Seu Nome"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            maxLength={MAX_NAME_LENGTH}
           />
         </div>
         <div className="mb-4">
@@ -76,16 +92,21 @@ export default function Contact() {
             placeholder="Sua Mensagem"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            maxLength={MAX_MESSAGE_LENGTH}
           />
         </div>
-        <button type="submit" className="send-message">
-          Enviar Mensagem
+        <button
+          type="submit"
+          className="send-message"
+          disabled={isFormInvalid || isSubmitting}
+        >
+          {isSubmitting ? 'Enviando...' : 'Enviar Mensagem'}
         </button>
         <ToastContainer position="bottom-right" />
       </form>
       <nav className="social-nav">
         <Link
-          href={linkLinkedIn}
+          href={LINK_LINKEDIN}
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
@@ -94,7 +115,7 @@ export default function Contact() {
           <span>LinkedIn</span>
         </Link>
         <Link
-          href={linkGitHub}
+          href={LINK_GITHUB}
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
@@ -103,7 +124,7 @@ export default function Contact() {
           <span>GitHub</span>
         </Link>
         <Link
-          href={linkRepo}
+          href={LINK_REPO}
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
