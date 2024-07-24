@@ -22,7 +22,7 @@ export const PokeCell = memo(function PokeCell({ name, poke_api, tier }: PokePro
         const data = await response.json();
         setImageSrc(data.sprites.other["official-artwork"].front_default);
       } catch (error) {
-        console.error("Erro ao buscar a imagem:", error);
+        // console.error("Erro ao buscar a imagem:", error);
       } finally {
         setLoading(false);
       }
