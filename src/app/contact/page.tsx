@@ -1,11 +1,43 @@
+"use client";
 import Link from "next/link";
-import "./contact.css";
 import { FaLinkedin, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FormEvent, useState } from "react";
+import "./contact.css";
 
 export default function Contact() {
   const linkLinkedIn = "https://www.linkedin.com/in/jefferson-simplicio/";
   const linkGitHub = "https://github.com/JeffersonSimplicio";
   const linkRepo = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
+
+  const [name, setName] = useState('');
+  const [message, setMessage] = useState('');
+  const [status, setStatus] = useState('');
+
+  async function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+    setStatus('Enviando...');
+
+    try {
+      const res = await fetch('/sendFeedback', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, message }),
+      });
+
+      if (res.ok) {
+        setStatus('Mensagem enviada com sucesso!');
+        setName('');
+        setMessage('');
+      } else {
+        const errorData = await res.json();
+        setStatus(`Erro ao enviar a mensagem: ${errorData.error}`);
+      }
+    } catch (error) {
+      setStatus('Erro ao enviar a mensagem.');
+    }
+  }
 
   return (
     <main className="contact-main">
@@ -15,7 +47,7 @@ export default function Contact() {
         sugestões, não hesite em entrar em contato conosco através do formulário
         de contato abaixo, ou pelos nossos perfis no LinkedIn e GitHub.
       </p>
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="name" className="label-form">
             Nome
@@ -25,17 +57,8 @@ export default function Contact() {
             id="name"
             className="input-form"
             placeholder="Seu Nome"
-          />
-        </div>
-        <div className="mb-4">
-          <label htmlFor="email" className="label-form">
-            E-mail
-          </label>
-          <input
-            type="email"
-            id="email"
-            className="input-form"
-            placeholder="Seu E-mail"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
         <div className="mb-4">
@@ -47,11 +70,14 @@ export default function Contact() {
             className="input-form"
             rows={4}
             placeholder="Sua Mensagem"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           />
         </div>
         <button type="submit" className="send-message">
           Enviar Mensagem
         </button>
+         {status && <p>{status}</p>} {/* Temporário */}
       </form>
       <nav className="social-nav">
         <Link
