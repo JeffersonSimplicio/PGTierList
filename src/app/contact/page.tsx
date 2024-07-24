@@ -3,39 +3,43 @@ import Link from "next/link";
 import { FaLinkedin, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { FormEvent, useState } from "react";
 import "./contact.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const linkLinkedIn = "https://www.linkedin.com/in/jefferson-simplicio/";
   const linkGitHub = "https://github.com/JeffersonSimplicio";
   const linkRepo = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
 
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('');
-  const [status, setStatus] = useState('');
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    setStatus('Enviando...');
+    toast.info("Enviando...", { autoClose: false });
 
     try {
-      const res = await fetch('/sendFeedback', {
-        method: 'POST',
+      const res = await fetch("/sendFeedback", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({ name, message }),
       });
 
       if (res.ok) {
-        setStatus('Mensagem enviada com sucesso!');
-        setName('');
-        setMessage('');
+        toast.dismiss();
+        toast.success("Mensagem enviada com sucesso!");
+        setName("");
+        setMessage("");
       } else {
         const errorData = await res.json();
-        setStatus(`Erro ao enviar a mensagem: ${errorData.error}`);
+        toast.dismiss();
+        toast.error(`Erro ao enviar a mensagem: ${errorData.error}`);
       }
     } catch (error) {
-      setStatus('Erro ao enviar a mensagem.');
+      toast.dismiss();
+      toast.error("Erro ao enviar a mensagem.");
     }
   }
 
@@ -77,7 +81,7 @@ export default function Contact() {
         <button type="submit" className="send-message">
           Enviar Mensagem
         </button>
-         {status && <p>{status}</p>} {/* Temporário */}
+        <ToastContainer position="bottom-right" />
       </form>
       <nav className="social-nav">
         <Link
