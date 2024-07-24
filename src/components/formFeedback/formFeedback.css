@@ -1,0 +1,19 @@
+.input-form {
+    @apply shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-2
+}
+
+.label-form {
+    @apply block text-sm font-medium text-primary mb-2
+}
+
+.send-message {
+    @apply w-full bg-primary text-white font-bold py-2 px-4 rounded-md hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
+}
+
+.send-message:disabled {
+    @apply bg-neutral text-background cursor-not-allowed
+}
+
+.contact-form {
+    @apply w-full max-w-lg mb-8
+}
