@@ -19,10 +19,10 @@ export function Footer() {
         </p>
         <nav className="nav-footer">
           <Link href="/about" className="text-secondary underline">
-            About
+            Sobre
           </Link>
           <Link href="/contact" className="text-secondary underline">
-            Contact
+            Contato
           </Link>
         </nav>
       </div>
