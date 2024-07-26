@@ -31,7 +31,7 @@ export default function About() {
         recursos para ajudar você a aproveitar ainda mais o jogo.
       </p>
       <p className="paragraph-text">
-        Este é um projeto de código aberto, e você pode encontrar nosso&nbsp;
+        Este é um projeto de código aberto, e você pode encontrar nosso{" "}
         <Link
           href={linkRepo}
           target="_blank"
