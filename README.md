@@ -8,3 +8,7 @@ O projeto "Pokémon Go Tier List" fornece uma lista detalhada dos melhores Poké
 - Ranking de Pokémons por Tier
 - Filtros por Tier e Tipo
 - Detalhamento dos melhores golpes para cada Pokémon
+
+## Instalação
+
+Não é necessário instalar nada. O projeto é um site acessível diretamente pelo seu navegador. Visite [site](link.site/aqui) para acessar a lista.
