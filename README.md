@@ -22,8 +22,8 @@ Visite o site e use os filtros para encontrar os melhores Pokémons para o seu P
 - Next.JS,
 - TypeScript,
 - Tailwind CSS,
-- React-Toastify
-- Vitest,
+- React-Toastify,
+- Vitest.
 
 ## Reconhecimentos
 
@@ -31,3 +31,122 @@ Visite o site e use os filtros para encontrar os melhores Pokémons para o seu P
 - Agradecemos a [Cleyton Carvalho](https://www.instagram.com/eucreitu/) pela contribuição com a imagem do favicon e dos ícones para redes sociais.
 - Reconhecemos [João Teles](https://www.linkedin.com/in/joaotelesk/) por suas valiosas sugestões que ajudaram a solucionar um problema técnico.
 - A raspagem dos dados foi realizada por um [bot](https://github.com/JeffersonSimplicio/PGTierList) desenvolvido por mim.
+
+## Contribuindo
+
+Obrigado por considerar contribuir para o nosso projeto! Este guia vai te ajudar a configurar o ambiente de desenvolvimento e a contribuir de maneira eficiente.
+
+### Requisitos
+
+- Node.js(18.17 ou mais recente)
+
+### 1. Configuração do Ambiente
+
+#### 1.1 Fork do Repositório
+
+1. Vá para o repositório no GitHub.
+2. Clique no botão "Fork" no canto superior direito da página.
+3. O GitHub criará uma cópia do repositório na sua conta.
+
+#### 1.2 Clonando o Repositório
+
+Clone o repositório forkado para o seu ambiente local:
+```bash
+git clone git@github.com:JeffersonSimplicio/pg_types_tierlist.git
+cd pg_types_tierlist
+```
+#### 1.3. Instalando Dependências
+
+Após clonar o repositório, instale as dependências do projeto:
+
+```bash
+npm i
+```
+
+#### 1.4. Configurando o Ambiente
+
+Crie um arquivo .env.local na raiz do projeto para configurar variáveis de ambiente necessárias. Você pode usar o arquivo .env.example como referência.
+
+```bash
+cp .env.example .env.local
+```
+
+Edite o .env.local com suas próprias configurações.
+
+### 2. Estrutura do Projeto
+
+Entenda a estrutura do projeto para facilitar a contribuição:
+
+- **`/app`**: Contém as páginas do Next.js. Cada página pode ter um arquivo de estilo e um arquivo de teste associado.
+- **`/components`**: Contém componentes reutilizáveis. Cada componente pode ter seu próprio arquivo de estilo e arquivo de teste.
+- **`/public`**: Contém arquivos estáticos, como imagens e fontes.
+
+Estrutura padrão de uma pagina
+```bash
+├── about.css
+├── about.test.tsx
+└── page.tsx
+```
+
+Estrutura padrão de um componente
+```bash
+├── header.css
+├── header.test.tsx
+├── header.tsx
+└── index.ts
+```
+
+### 3. Fazendo Alterações
+
+#### 3.1. Criando uma Nova Branch
+
+Antes de começar a fazer alterações, crie uma nova branch:
+
+```bash
+git checkout -b nome-da-sua-branch
+```
+
+#### 3.2. Fazendo Alterações
+
+Faça as alterações necessárias no código. Utilize os seguintes comandos para rodar o projeto e verificar as alterações localmente:
+
+```bash
+npm run dev
+```
+
+#### 3.3. Rodando Testes
+
+Execute os testes para garantir que suas alterações não quebrem nada:
+
+```bash
+npm test
+```
+
+##### 3.4. Adicionando e Commitando Alterações
+
+Adicione e faça commit das suas alterações:
+
+```bash
+git add .
+git commit -m "Descrição das alterações"
+```
+
+#### 3.5. Subindo a Branch e Criando um Pull Request
+
+Envie sua branch para o repositório forkado no GitHub:
+
+```bash
+git push origin nome-da-sua-branch
+```
+
+Depois, vá até o GitHub e crie um Pull Request (PR) a partir do seu repositório forkado para o repositório original. Descreva suas alterações e explique qualquer coisa que precise ser revisada.
+
+### 4. Revisão e Merge
+
+Os mantenedores do projeto revisarão seu Pull Request. Eles podem pedir alterações adicionais antes de aceitar o merge. Certifique-se de responder a qualquer feedback que receber.
+
+### 5. Dicas Adicionais
+
+- **Documentação**: Atualize a documentação se suas alterações incluírem novos recursos ou mudanças significativas.
+- **Consistência**: Siga o estilo de código e as convenções usadas no projeto para manter a consistência.
+- **Comunicação**: Se tiver dúvidas, não hesite em abrir uma issue no GitHub ou entrar em contato com os mantenedores.
