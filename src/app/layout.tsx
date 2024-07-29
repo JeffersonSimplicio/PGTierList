@@ -12,6 +12,11 @@ const PS2P = Press_Start_2P({
 export const metadata: Metadata = {
   title: "Tier List Pokemon Go",
   description: "Lista os melhores Pokemons de cada tipo no Pokemon Go",
+  openGraph: {
+    title: "Melhores Pokémons em Pokémon Go",
+    description: "Descubra os Pokémons mais eficazes em cada tipo e melhore sua estratégia no Pokémon Go.",
+    images: "/thumb.png"
+  }
 };
 
 interface IRootLayout extends Readonly<{ children: React.ReactNode }> {}

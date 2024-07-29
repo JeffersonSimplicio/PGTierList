@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { IPokeTier, IPokeType } from "@/interfaces";
 import { getData } from "@/utils";
@@ -10,6 +11,43 @@ interface Props {
 function removeUnderscore(str: string) {
   const decoded = decodeURIComponent(str);
   return decoded.replace(/_/g, " ");
+}
+
+export async function generateMetadata({
+  params: { pokeName },
+}: Props): Promise<Metadata> {
+  const [tier_tmp, name_tmp] = pokeName.split("-");
+  const tier = removeUnderscore(tier_tmp);
+  const name = removeUnderscore(name_tmp);
+
+  const allData = await getData<IPokeTier>("pokeTiers.json");
+  const pokeInfo = Object.values(allData)
+    .flat()
+    .find((poke) => poke.name === name);
+
+  let urlImage = "/whoIsThatPokemon.png";
+  let title = "Detalhes do Pokémon";
+  let description = "Informações não disponíveis.";
+
+  if (pokeInfo) {
+    try {
+      const response = await fetch(pokeInfo.poke_api);
+      const data = await response.json();
+      urlImage = data.sprites.other["official-artwork"].front_default;
+    } catch (error) {}
+
+    title = pokeInfo.name;
+    description = `${pokeInfo.name} está classificado no tier ${tier}. Veja seus melhores golpes e mais detalhes.`;
+  }
+
+  return {
+    title,
+    openGraph: {
+      title: `Detalhes do ${title}`,
+      description,
+      images: [urlImage],
+    },
+  };
 }
 
 export default async function PokemonDetails({ params: { pokeName } }: Props) {
