@@ -30,7 +30,7 @@ export function Header() {
         </div>
       </div>
       {isMenuOpen && (
-        <nav className="nav-hamburger">
+        <nav className="nav-hamburger" data-testid="mobile-menu">
           {/* <Link href="/" className="block internal-link">Home</Link> */}
           <Link href="/about" className="block internal-link">Sobre</Link>
           <Link href="/contact" className="block internal-link">Contato</Link>
