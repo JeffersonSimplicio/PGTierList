@@ -17,6 +17,14 @@ Não é necessário instalar nada. O projeto é um site acessível diretamente p
 
 Visite o site e use os filtros para encontrar os melhores Pokémons para o seu PVE. Você pode filtrar por tier e tipo e consultar detalhes sobre os melhores golpes para cada Pokémon.
 
+## Stack utilizada
+
+- Next.JS,
+- TypeScript,
+- Tailwind CSS,
+- React-Toastify
+- Vitest,
+
 ## Reconhecimentos
 
 - O conteúdo deste site é baseado nas informações fornecidas pelo [PokemonGoHub](https://db.pokemongohub.net/best/raid-attackers).
