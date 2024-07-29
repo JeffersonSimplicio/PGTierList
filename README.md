@@ -16,3 +16,10 @@ Não é necessário instalar nada. O projeto é um site acessível diretamente p
 ## Uso/Exemplos
 
 Visite o site e use os filtros para encontrar os melhores Pokémons para o seu PVE. Você pode filtrar por tier e tipo e consultar detalhes sobre os melhores golpes para cada Pokémon.
+
+## Reconhecimentos
+
+- O conteúdo deste site é baseado nas informações fornecidas pelo [PokemonGoHub](https://db.pokemongohub.net/best/raid-attackers).
+- Agradecemos a [Cleyton Carvalho](https://www.instagram.com/eucreitu/) pela contribuição com a imagem do favicon e dos ícones para redes sociais.
+- Reconhecemos [João Teles](https://www.linkedin.com/in/joaotelesk/) por suas valiosas sugestões que ajudaram a solucionar um problema técnico.
+- A raspagem dos dados foi realizada por um [bot](https://github.com/JeffersonSimplicio/PGTierList) desenvolvido por mim.
