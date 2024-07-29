@@ -1,6 +1,20 @@
 
 # Pokémon Go Tier List
 
+## Sumário
+1. [Descrição](#descrição)
+2. [Funcionalidades](#funcionalidades)
+3. [Uso e Exemplos](#usoexemplos)
+4. [Instalação Local](#instalação-local)
+5. [Stack Utilizada](#stack-utilizada)
+6. [Reconhecimentos](#reconhecimentos)
+7. [Projetos Relacionados](#projetos-relacionados)
+8. [Contribuindo](#contribuindo)
+9. [Licença](#licença)
+10. [Contato](#contato)
+
+## Descrição
+
 O projeto "Pokémon Go Tier List" fornece uma lista detalhada dos melhores Pokémon para PV E no Pokémon Go, ranqueados por tiers. Ele permite filtrar os Pokémon por tier e tipo, e fornece informações sobre os melhores golpes para cada Pokémon. O site é acessível em qualquer dispositivo, seja celular, tablet ou computador.
 
 ## Funcionalidades
@@ -9,21 +23,23 @@ O projeto "Pokémon Go Tier List" fornece uma lista detalhada dos melhores Poké
 - Filtros por Tier e Tipo
 - Detalhamento dos melhores golpes para cada Pokémon
 
-## Instalação
-
-Não é necessário instalar nada. O projeto é um site acessível diretamente pelo seu navegador. Visite [site](link.site/aqui) para acessar a lista.
-
 ## Uso/Exemplos
 
 Visite o site e use os filtros para encontrar os melhores Pokémons para o seu PVE. Você pode filtrar por tier e tipo e consultar detalhes sobre os melhores golpes para cada Pokémon.
 
+## Instalação local
+
+Não é necessário instalar nada. O projeto é um site acessível diretamente pelo seu navegador. Visite [site](link.site/aqui) para acessar a lista.
+
+Caso deseje instalar localmente o projeto, siga o [guia de contribuição](#1-configuração-do-ambiente)
+
 ## Stack utilizada
 
-- Next.JS,
-- TypeScript,
-- Tailwind CSS,
-- React-Toastify,
-- Vitest.
+- **Framework**: Next.js
+- **Linguagem**: TypeScript
+- **Estilização**: Tailwind CSS, React-Icons
+- **Notificações**: React-Toastify
+- **Testes**: Vitest
 
 ## Reconhecimentos
 
@@ -31,6 +47,10 @@ Visite o site e use os filtros para encontrar os melhores Pokémons para o seu P
 - Agradecemos a [Cleyton Carvalho](https://www.instagram.com/eucreitu/) pela contribuição com a imagem do favicon e dos ícones para redes sociais.
 - Reconhecemos [João Teles](https://www.linkedin.com/in/joaotelesk/) por suas valiosas sugestões que ajudaram a solucionar um problema técnico.
 - A raspagem dos dados foi realizada por um [bot](https://github.com/JeffersonSimplicio/PGTierList) desenvolvido por mim.
+
+## Projetos Relacionados
+
+ - [Pokemon Web Scraper](https://github.com/JeffersonSimplicio/PGTierList)
 
 ## Contribuindo
 
@@ -150,3 +170,9 @@ Os mantenedores do projeto revisarão seu Pull Request. Eles podem pedir altera�
 - **Documentação**: Atualize a documentação se suas alterações incluírem novos recursos ou mudanças significativas.
 - **Consistência**: Siga o estilo de código e as convenções usadas no projeto para manter a consistência.
 - **Comunicação**: Se tiver dúvidas, não hesite em abrir uma issue no GitHub ou entrar em contato com os mantenedores.
+
+## Licença
+Este projeto está licenciado sob a GNU General Public License v3.0. Veja o arquivo [LICENSE]() para mais detalhes.
+
+## Contato
+Para mais informações, você pode entrar em contato comigo através do [LinkedIn]() ou pelo [e-mail]().
