@@ -10,7 +10,11 @@ interface PokeProps {
   tier: string;
 }
 
-export const PokeCell = memo(function PokeCell({ name, poke_api, tier }: PokeProps) {
+export const PokeCell = memo(function PokeCell({
+  name,
+  poke_api,
+  tier,
+}: PokeProps) {
   const imageDescription = `Imagem do Pokémon ${name}`;
   const [imageSrc, setImageSrc] = useState<string>("/whoIsThatPokemon.png");
   const [loading, setLoading] = useState<boolean>(true);

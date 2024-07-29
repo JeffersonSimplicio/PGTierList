@@ -1,7 +1,7 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import { FormFeedback } from "./formFeedback";
 import { vi } from "vitest";
 import { toast } from "react-toastify";
+import { FormFeedback } from "./formFeedback";
 
 vi.mock("react-toastify", () => ({
   ToastContainer: () => null,

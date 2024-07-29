@@ -3,16 +3,16 @@ import Link from "next/link";
 import "./about.css";
 
 export default function About() {
-  const fotoInsta =
+  const AUTHOR_IMAGE =
     "https://media.licdn.com/dms/image/C4E03AQHSlCjSdDOAlA/profile-displayphoto-shrink_800_800/0/1663096509637?e=1727308800&v=beta&t=eprJ_ewgUTX1AkJjzIKgamx4fUKjeW_cMi7eiE_oaZE";
 
-  const linkRepo = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
+  const LINK_REPO = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
 
   return (
     <main className="main-about">
       <h1 className="title-page">Sobre Nós</h1>
       <Image
-        src={fotoInsta}
+        src={AUTHOR_IMAGE}
         alt="Foto de Jefferson da Silva Simplício. Desenvolvedor responsável por criar a página."
         width={400} //500
         height={240} //300
@@ -33,7 +33,7 @@ export default function About() {
       <p className="paragraph-text">
         Este é um projeto de código aberto, e você pode encontrar nosso{" "}
         <Link
-          href={linkRepo}
+          href={LINK_REPO}
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary hover:text-secondary"

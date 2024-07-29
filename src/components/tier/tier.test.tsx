@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
+import { vi } from "vitest";
 import { Tier } from "./tier";
 import { PokeCell } from "@/components";
-import { vi } from "vitest";
 
 vi.mock("@/components", () => ({
   PokeCell: vi.fn(() => {

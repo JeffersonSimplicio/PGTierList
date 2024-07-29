@@ -21,9 +21,7 @@ export default function RootLayout({ children }: IRootLayout) {
     <html lang="pt-br">
       <body className={`${PS2P.className} overflow-x-hidden`}>
         <Header />
-        <main className="p-4 max-w-full overflow-x-hidden">
-          {children}
-        </main>
+        <main className="p-4 max-w-full overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>

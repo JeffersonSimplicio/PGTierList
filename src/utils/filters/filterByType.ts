@@ -10,7 +10,7 @@ export function filterByType(data: IPokeTier, filters: string = "") {
 
   Object.entries(data).forEach(([key, value]) => {
     const listPokemonFiltered = value.filter((poke) => {
-      return arrayFilters.some(str => poke.types.includes(str));
+      return arrayFilters.some((str) => poke.types.includes(str));
     });
     if (listPokemonFiltered.length > 0) result[key] = listPokemonFiltered;
   });

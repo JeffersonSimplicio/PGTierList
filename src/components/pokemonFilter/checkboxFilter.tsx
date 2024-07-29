@@ -9,7 +9,7 @@ type possibleTypes = IPokeTier | IPokeType;
 interface props {
   listOptions: possibleTypes;
   queryName: string;
-  text: string
+  text: string;
 }
 
 export function CheckboxFilter({ listOptions, queryName, text }: props) {
@@ -76,10 +76,7 @@ export function CheckboxFilter({ listOptions, queryName, text }: props) {
 
   return (
     <div className="relative">
-      <button
-        className="button-filter"
-        onClick={toggleDropdown}
-      >
+      <button className="button-filter" onClick={toggleDropdown}>
         {text}
       </button>
       {isOpen && (

@@ -1,8 +1,8 @@
 "use client";
-import "./formFeedback.css";
 import { FormEvent, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./formFeedback.css";
 
 export function FormFeedback() {
   const MAX_NAME_LENGTH = 100;

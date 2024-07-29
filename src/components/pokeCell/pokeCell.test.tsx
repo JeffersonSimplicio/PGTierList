@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import { PokeCell } from "./pokeCell";
 import { vi } from "vitest";
+import { PokeCell } from "./pokeCell";
 
 const mockFetchSuccess = () =>
   Promise.resolve({
@@ -19,9 +19,7 @@ const mockFetchSuccess = () =>
 const mockFetchFailure = () => Promise.reject(new Error("Failed to fetch"));
 
 describe("PokeCell Component", () => {
-  it(
-    "renders the component with the correct Pokémon name and image on successful fetch",
-    async () => {
+  it("renders the component with the correct Pokémon name and image on successful fetch", async () => {
     vi.stubGlobal("fetch", mockFetchSuccess);
 
     render(

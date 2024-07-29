@@ -22,16 +22,16 @@ describe("CheckboxFilter", () => {
       </AppRouterContextProviderMock>
     );
 
-    const buttonFilter = screen.getByText('Filter by Type');
-    expect(buttonFilter).toBeVisible();;
+    const buttonFilter = screen.getByText("Filter by Type");
+    expect(buttonFilter).toBeVisible();
 
     fireEvent.click(buttonFilter);
 
-    const checkboxAll = screen.getByText('Todos');
-    expect(checkboxAll).toBeVisible();;
+    const checkboxAll = screen.getByText("Todos");
+    expect(checkboxAll).toBeVisible();
 
-    Object.values(mockListOptions).forEach(option => {
-      expect(screen.getByText(option)).toBeVisible();;
+    Object.values(mockListOptions).forEach((option) => {
+      expect(screen.getByText(option)).toBeVisible();
     });
   });
 
@@ -46,19 +46,19 @@ describe("CheckboxFilter", () => {
         />
       </AppRouterContextProviderMock>
     );
-    
-    const buttonFilter = screen.getByText('Filter by Type');
+
+    const buttonFilter = screen.getByText("Filter by Type");
     fireEvent.click(buttonFilter);
 
-    expect(screen.getByText('Todos')).toBeVisible();
-    Object.values(mockListOptions).forEach(option => {
+    expect(screen.getByText("Todos")).toBeVisible();
+    Object.values(mockListOptions).forEach((option) => {
       expect(screen.getByText(option)).toBeVisible();
     });
 
     fireEvent.click(buttonFilter);
-    
-    expect(screen.queryByText('Todos')).not.toBeInTheDocument();
-    Object.values(mockListOptions).forEach(option => {
+
+    expect(screen.queryByText("Todos")).not.toBeInTheDocument();
+    Object.values(mockListOptions).forEach((option) => {
       expect(screen.queryByText(option)).not.toBeInTheDocument();
     });
   });
@@ -74,23 +74,23 @@ describe("CheckboxFilter", () => {
         />
       </AppRouterContextProviderMock>
     );
-    
-    const buttonFilter = screen.getByText('Filter by Type');
+
+    const buttonFilter = screen.getByText("Filter by Type");
     fireEvent.click(buttonFilter);
 
-    const fireCheckbox = screen.getByLabelText('Fire');
-    const waterCheckbox = screen.getByLabelText('Water');
-    const allCheckbox = screen.getByLabelText('Todos');
+    const fireCheckbox = screen.getByLabelText("Fire");
+    const waterCheckbox = screen.getByLabelText("Water");
+    const allCheckbox = screen.getByLabelText("Todos");
 
     fireEvent.click(fireCheckbox);
     expect(fireCheckbox).toBeChecked();
-    
+
     fireEvent.click(waterCheckbox);
     expect(waterCheckbox).toBeChecked();
 
     fireEvent.click(allCheckbox);
     expect(allCheckbox).toBeChecked();
-    
+
     fireEvent.click(fireCheckbox);
     expect(fireCheckbox).not.toBeChecked();
 
@@ -112,15 +112,14 @@ describe("CheckboxFilter", () => {
       </AppRouterContextProviderMock>
     );
 
-    const buttonFilter = screen.getByText('Filter by Type');
+    const buttonFilter = screen.getByText("Filter by Type");
     fireEvent.click(buttonFilter);
-    const fireCheckbox = screen.getByLabelText('Fire');
+    const fireCheckbox = screen.getByLabelText("Fire");
     fireEvent.click(fireCheckbox);
 
     console.log(replace.mock.calls[2][0]);
     expect(replace.mock.calls[2][0]).toMatch(/types=fire/i);
     console.log(replace.mock.calls[2][0]);
-    
   });
   it("should initialize with the correct state and handle 'Todos' checkbox correctly", () => {
     const replace = vi.fn();
@@ -134,23 +133,23 @@ describe("CheckboxFilter", () => {
       </AppRouterContextProviderMock>
     );
 
-    const buttonFilter = screen.getByText('Filter by Type');
-    expect(screen.queryByText('Todos')).not.toBeInTheDocument();
-    Object.values(mockListOptions).forEach(option => {
+    const buttonFilter = screen.getByText("Filter by Type");
+    expect(screen.queryByText("Todos")).not.toBeInTheDocument();
+    Object.values(mockListOptions).forEach((option) => {
       expect(screen.queryByLabelText(option)).not.toBeInTheDocument();
     });
 
     fireEvent.click(buttonFilter);
-    const allCheckbox = screen.getByLabelText('Todos');
+    const allCheckbox = screen.getByLabelText("Todos");
     expect(allCheckbox).toBeVisible();
 
     fireEvent.click(allCheckbox);
-    Object.values(mockListOptions).forEach(option => {
+    Object.values(mockListOptions).forEach((option) => {
       expect(screen.getByLabelText(option)).toBeChecked();
     });
 
     fireEvent.click(allCheckbox);
-    Object.values(mockListOptions).forEach(option => {
+    Object.values(mockListOptions).forEach((option) => {
       expect(screen.getByLabelText(option)).not.toBeChecked();
     });
   });

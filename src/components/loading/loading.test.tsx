@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { Loading } from "./loading";
 import "@testing-library/jest-dom";
+import { Loading } from "./loading";
 
 describe("Loading Component", () => {
   it("renders the loading component with the correct elements", () => {

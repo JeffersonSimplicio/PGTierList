@@ -1,5 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+import { NextRequest, NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 interface FeedbackRequestBody {
   name: string;
@@ -26,9 +26,15 @@ export async function POST(req: NextRequest) {
 
   try {
     await transporter.sendMail(mailOptions);
-    return NextResponse.json({ message: "E-mail enviado com sucesso!" }, { status: 200 });
+    return NextResponse.json(
+      { message: "E-mail enviado com sucesso!" },
+      { status: 200 }
+    );
   } catch (error) {
     // console.error(error);
-    return NextResponse.json({ error: "Erro ao enviar o e-mail" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Erro ao enviar o e-mail" },
+      { status: 500 }
+    );
   }
 }
