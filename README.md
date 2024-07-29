@@ -142,7 +142,7 @@ Execute os testes para garantir que suas alterações não quebrem nada:
 npm test
 ```
 
-##### 3.4. Adicionando e Commitando Alterações
+#### 3.4. Adicionando e Commitando Alterações
 
 Adicione e faça commit das suas alterações:
 
