@@ -172,7 +172,7 @@ Os mantenedores do projeto revisarão seu Pull Request. Eles podem pedir altera�
 - **Comunicação**: Se tiver dúvidas, não hesite em abrir uma issue no GitHub ou entrar em contato com os mantenedores.
 
 ## Licença
-Este projeto está licenciado sob a GNU General Public License v3.0. Veja o arquivo [LICENSE]() para mais detalhes.
+Este projeto está licenciado sob a GNU General Public License v3.0. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ## Contato
-Para mais informações, você pode entrar em contato comigo através do [LinkedIn]() ou pelo [e-mail]().
+Para mais informações, você pode entrar em contato comigo através do [LinkedIn](https://www.linkedin.com/in/jefferson-simplicio/) ou pelo <a href="mailto:jeffersonsimplicio.js+pg_tierlist@gmail.com" target="_blank">e-mail</a>.
