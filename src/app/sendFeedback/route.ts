@@ -19,7 +19,9 @@ export async function POST(req: NextRequest) {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: process.env.EMAIL_USER,
+    to: process.env.RECIPIENT_EMAIL
+      ? process.env.RECIPIENT_EMAIL
+      : process.env.EMAIL_USER,
     subject: `Feedback de ${name}`,
     text: `Nome: ${name}\n\nMensagem:\n${message}`,
   };
