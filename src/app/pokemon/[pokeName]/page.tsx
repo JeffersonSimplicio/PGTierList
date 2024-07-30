@@ -3,6 +3,7 @@ import Image from "next/image";
 import { IPokeTier, IPokeType } from "@/interfaces";
 import { getData } from "@/utils";
 import "./pokeDetails.css";
+import { metadataBase } from '@/app/metadata';
 
 interface Props {
   params: { pokeName: string };
@@ -12,6 +13,7 @@ function removeUnderscore(str: string) {
   const decoded = decodeURIComponent(str);
   return decoded.replace(/_/g, " ");
 }
+
 
 export async function generateMetadata({
   params: { pokeName },
@@ -25,7 +27,7 @@ export async function generateMetadata({
     .flat()
     .find((poke) => poke.name === name);
 
-  let urlImage = "/whoIsThatPokemon.png";
+  let urlImage = `${metadataBase}/whoIsThatPokemon.png`; // Use a URL base para imagens
   let title = "Detalhes do Pokémon";
   let description = "Informações não disponíveis.";
 

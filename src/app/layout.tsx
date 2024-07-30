@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import { Header, Footer } from "@/components";
+import { metadataBase } from '@/app/metadata';
 
 const PS2P = Press_Start_2P({
   subsets: ["latin"],
@@ -10,12 +11,13 @@ const PS2P = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
+  metadataBase,
   title: "Tier List Pokemon Go",
   description: "Lista os melhores Pokemons de cada tipo no Pokemon Go",
   openGraph: {
     title: "Melhores Pokémons em Pokémon Go",
     description: "Descubra os Pokémons mais eficazes em cada tipo e melhore sua estratégia no Pokémon Go.",
-    images: "/thumb.png"
+    images: [`${metadataBase}/thumb.png`] // Certifique-se de que o caminho da imagem é absoluto
   }
 };
 
