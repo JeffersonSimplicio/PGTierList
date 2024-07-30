@@ -1,6 +1,6 @@
 {
-  "name": "pg_types_tierlist",
-  "version": "0.1.0",
+  "name": "pg_tier_list",
+  "version": "1.0.0-beta",
   "private": true,
   "scripts": {
     "dev": "next dev",
