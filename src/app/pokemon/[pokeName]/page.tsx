@@ -11,7 +11,7 @@ interface Props {
 
 function removeUnderscore(str: string) {
   const decoded = decodeURIComponent(str);
-  return decoded.replace(/_/g, " ");
+  return decoded.replace(/_/g, " ").replace(/plus/g, "+");
 }
 
 
@@ -39,7 +39,7 @@ export async function generateMetadata({
     } catch (error) {}
 
     title = pokeInfo.name;
-    description = `${pokeInfo.name} está classificado no tier ${tier}. Veja seus melhores golpes e mais detalhes.`;
+    description = `${pokeInfo.name} está classificado no ${tier}. Veja seus melhores golpes e mais detalhes.`;
   }
 
   return {

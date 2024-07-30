@@ -36,7 +36,9 @@ export const PokeCell = memo(function PokeCell({
 
   return (
     <Link
-      href={`/pokemon/${tier.replace(" ", "_")}-${name.replace(" ", "_")}`}
+      href={`/pokemon/${tier
+        .replace(" ", "_")
+        .replace(/\+/g, "plus")}-${name.replace(" ", "_")}`}
       target="_blank"
       passHref
     >
