@@ -15,7 +15,7 @@
 
 ## Descrição
 
-O projeto "Pokémon Go Tier List" fornece uma lista detalhada dos melhores Pokémon para PV E no Pokémon Go, ranqueados por tiers. Ele permite filtrar os Pokémon por tier e tipo, e fornece informações sobre os melhores golpes para cada Pokémon. O site é acessível em qualquer dispositivo, seja celular, tablet ou computador.
+O projeto "Pokémon Go Tier List" fornece uma lista detalhada dos melhores Pokémon para PVE no Pokémon Go, ranqueados por tiers. Ele permite filtrar os Pokémon por tier e tipo, e fornece informações sobre os melhores golpes para cada Pokémon. O site é acessível em qualquer dispositivo, seja celular, tablet ou computador.
 
 ## Funcionalidades
 
