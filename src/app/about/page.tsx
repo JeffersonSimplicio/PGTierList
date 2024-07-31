@@ -3,21 +3,20 @@ import Link from "next/link";
 import "./about.css";
 
 export default function About() {
-  const AUTHOR_IMAGE =
-    "https://media.licdn.com/dms/image/C4E03AQHSlCjSdDOAlA/profile-displayphoto-shrink_800_800/0/1663096509637?e=1727308800&v=beta&t=eprJ_ewgUTX1AkJjzIKgamx4fUKjeW_cMi7eiE_oaZE";
+  // const AUTHOR_IMAGE = "";
 
   const LINK_REPO = "https://github.com/JeffersonSimplicio/pg_types_tierlist";
 
   return (
     <main className="main-about">
       <h1 className="title-page">Sobre Nós</h1>
-      <Image
+      {/* <Image
         src={AUTHOR_IMAGE}
         alt="Foto de Jefferson da Silva Simplício. Desenvolvedor responsável por criar a página."
         width={400} //500
         height={240} //300
         className="rounded-lg mb-4"
-      />
+      /> */}
       <p className="paragraph-text mb-4">
         Bem-vindo ao Pokémon Go Tier List! Este site é dedicado a fornecer as
         informações precisas e atualizadas sobre os melhores Pokémon para
