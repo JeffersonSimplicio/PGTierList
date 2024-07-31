@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import "./about.css";
 
@@ -18,7 +18,7 @@ export default function About() {
         className="rounded-lg mb-4"
       /> */}
       <p className="paragraph-text mb-4">
-        Bem-vindo ao Pokémon Go Tier List! Este site é dedicado a fornecer as
+        Bem-vindo ao Pokémon Go Tier List! Este site é dedicado a fornecer
         informações precisas e atualizadas sobre os melhores Pokémon para
         batalhas PvE em Pokémon Go. Aqui, você encontrará listas de níveis
         organizadas e as melhores combinações de golpes para cada Pokémon.
@@ -26,7 +26,7 @@ export default function About() {
       <p className="paragraph-text mb-4">
         Seja você um jogador novato ou experiente, casual ou dedicado, nosso
         site tem algo para todos. Nossa equipe de fãs apaixonados está sempre
-        trabalhando para melhorar o site, corrigir problemas e trazer novos
+        trabalhando para melhorar esse projeto, corrigir problemas e trazer novos
         recursos para ajudar você a aproveitar ainda mais o jogo.
       </p>
       <p className="paragraph-text">
@@ -40,7 +40,7 @@ export default function About() {
           <span>repositório no GitHub</span>
         </Link>
         . Ficamos felizes com sua visita e esperamos que você encontre nosso
-        conteúdo útil e interessante!
+        ache útil e interessante!
       </p>
     </main>
   );
