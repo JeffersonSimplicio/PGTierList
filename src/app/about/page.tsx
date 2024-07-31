@@ -20,7 +20,7 @@ export default function About() {
       <p className="paragraph-text mb-4">
         Bem-vindo ao Pokémon Go Tier List! Este site é dedicado a fornecer
         informações precisas e atualizadas sobre os melhores Pokémon para
-        batalhas PvE em Pokémon Go. Aqui, você encontrará listas de níveis
+        batalhas PvE no Pokémon Go. Aqui, você encontrará listas de níveis
         organizadas e as melhores combinações de golpes para cada Pokémon.
       </p>
       <p className="paragraph-text mb-4">
@@ -39,8 +39,7 @@ export default function About() {
         >
           <span>repositório no GitHub</span>
         </Link>
-        . Ficamos felizes com sua visita e esperamos que você encontre nosso
-        ache útil e interessante!
+        . Estamos felizes com a sua visita e esperamos que você considere nosso conteúdo útil e interessante!
       </p>
     </main>
   );
