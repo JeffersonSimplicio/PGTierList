@@ -13,7 +13,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "next": "14.2.4",
+    "next": "^14.2.15",
     "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
