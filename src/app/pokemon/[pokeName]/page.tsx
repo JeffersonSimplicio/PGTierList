@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { IPokeTier, IPokeType } from "@/interfaces";
+import { IPokeTier, IPokeType, IPokeMove } from "@/interfaces";
 import { getData } from "@/utils";
 import "./pokeDetails.css";
-import { metadataBase } from '@/app/metadata';
+import { metadataBase } from "@/app/metadata";
 
 interface Props {
   params: { pokeName: string };
@@ -14,6 +14,19 @@ function removeUnderscore(str: string) {
   return decoded.replace(/_/g, " ").replace(/plus/g, "+");
 }
 
+function removeSpecialCharacters(input: string): {
+  cleanedString: string;
+  hadSpecialCharacters: boolean;
+} {
+  const regex = /[^a-zA-Z0-9áéíóúÁÉÍÓÚãõâêîôûçÇüÜ ]/g;
+  const hadSpecialCharacters = regex.test(input); // Verifica se há caracteres especiais
+  const cleanedString = input.replace(regex, "").trim(); // Remove os caracteres especiais
+
+  return {
+    cleanedString,
+    hadSpecialCharacters,
+  };
+}
 
 export async function generateMetadata({
   params: { pokeName },
@@ -58,8 +71,9 @@ export default async function PokemonDetails({ params: { pokeName } }: Props) {
   const name = removeUnderscore(name_tmp);
 
   const allData = await getData<IPokeTier>("pokeTiers.json");
-  const listTypes = await getData<IPokeType>("typesPokemon.json");
   const pokeInfo = allData[tier].filter((poke) => poke.name === name)[0];
+  const listTypes = await getData<IPokeType>("typesPokemon.json");
+  const listMoves = await getData<IPokeMove>("pokeMoves.json");
 
   const imageDescription = `Imagem do Pokémon ${pokeInfo.name}`;
   let urlImage: string;
@@ -108,13 +122,46 @@ export default async function PokemonDetails({ params: { pokeName } }: Props) {
               </tr>
             </thead>
             <tbody>
-              {pokeInfo.attacks.map((attack, index) => (
-                <tr key={index} className="border-b border-neutral">
-                  <td className="py-2 px-4">{attack.type}</td>
-                  <td className="py-2 px-4">{attack.fast_attack}</td>
-                  <td className="py-2 px-4">{attack.charged_attack}</td>
-                </tr>
-              ))}
+              {pokeInfo.attacks.map((attack, index) => {
+                const fastAttackResult = removeSpecialCharacters(
+                  attack.fast_attack
+                );
+                const chargedAttackResult = removeSpecialCharacters(
+                  attack.charged_attack
+                );
+
+                return (
+                  <tr key={index} className="border-b border-neutral">
+                    <td className="py-2 px-4">{listTypes[attack.type]}</td>
+                    <td
+                      className="py-2 px-4"
+                      title={
+                        fastAttackResult.hadSpecialCharacters
+                          ? "Golpe Legacy"
+                          : ""
+                      }
+                    >
+                      {listMoves.fast_attacks[fastAttackResult.cleanedString]}
+                      {fastAttackResult.hadSpecialCharacters ? "*" : ""}
+                    </td>
+                    <td
+                      className="py-2 px-4"
+                      title={
+                        chargedAttackResult.hadSpecialCharacters
+                          ? "Golpe Legacy"
+                          : ""
+                      }
+                    >
+                      {
+                        listMoves.charge_attacks[
+                          chargedAttackResult.cleanedString
+                        ]
+                      }
+                      {chargedAttackResult.hadSpecialCharacters ? "*" : ""}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
