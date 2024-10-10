@@ -18,7 +18,7 @@ function removeSpecialCharacters(input: string): {
   cleanedString: string;
   hadSpecialCharacters: boolean;
 } {
-  const regex = /[^a-zA-Z0-9áéíóúÁÉÍÓÚãõâêîôûçÇüÜ ]/g;
+  const regex = /\*/g; // Regex para corresponder ao caractere '*'
   const hadSpecialCharacters = regex.test(input); // Verifica se há caracteres especiais
   const cleanedString = input.replace(regex, "").trim(); // Remove os caracteres especiais
 
