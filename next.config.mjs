@@ -20,6 +20,12 @@ const nextConfig = {
             port: '',
             pathname: '/dms/image/C4E03AQHSlCjSdDOAlA/**',
           },
+          {
+            protocol: 'https',
+            hostname: 'archives.bulbagarden.net',  // Adiciona o domínio aqui
+            port: '',
+            pathname: '/media/upload/**',  // Especifique o caminho correto
+          },
         ],
     },
 };

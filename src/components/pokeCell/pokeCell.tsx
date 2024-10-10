@@ -27,6 +27,32 @@ export const PokeCell = memo(function PokeCell({
         setImageSrc(data.sprites.other["official-artwork"].front_default);
       } catch (error) {
         // console.error("Erro ao buscar a imagem:", error);
+        // It's not the best solution, but it should work for now.
+        switch (name) {
+          case "Genesect (Chill Drive)":
+            setImageSrc(
+              "https://archives.bulbagarden.net/media/upload/3/38/HOME0649W.png"
+            );
+            break;
+          case "Genesect (Burn Drive)":
+            setImageSrc(
+              "https://archives.bulbagarden.net/media/upload/a/aa/HOME0649R.png"
+            );
+            break;
+          case "Genesect (Douse Drive)":
+            setImageSrc(
+              "https://archives.bulbagarden.net/media/upload/4/44/HOME0649B.png"
+            );
+            break;
+          case "Genesect (Shock Drive)":
+            setImageSrc(
+              "https://archives.bulbagarden.net/media/upload/e/e5/HOME0649Y.png"
+            );
+            break;
+          default:
+            setImageSrc("/whoIsThatPokemon.png");
+            break;
+        }
       } finally {
         setLoading(false);
       }

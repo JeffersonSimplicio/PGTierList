@@ -1834,7 +1834,7 @@
     },
     {
       "name": "Genesect (Chill Drive)",
-      "poke_api": "https://pokeapi.co/api/v2/pokemon/10078",
+      "poke_api": "https://pokeapi.co/api/v2/pokemon/10078/error",
       "types": ["Bug", "Steel"],
       "attacks": [
         {
@@ -2019,7 +2019,7 @@
     },
     {
       "name": "Genesect (Burn Drive)",
-      "poke_api": "https://pokeapi.co/api/v2/pokemon/10077",
+      "poke_api": "https://pokeapi.co/api/v2/pokemon/10077/error",
       "types": ["Bug", "Steel"],
       "attacks": [
         {
@@ -2199,7 +2199,7 @@
     },
     {
       "name": "Genesect (Douse Drive)",
-      "poke_api": "https://pokeapi.co/api/v2/pokemon/10075",
+      "poke_api": "https://pokeapi.co/api/v2/pokemon/10075/error",
       "types": ["Bug", "Steel"],
       "attacks": [
         {
@@ -2632,7 +2632,7 @@
     },
     {
       "name": "Genesect (Shock Drive)",
-      "poke_api": "https://pokeapi.co/api/v2/pokemon/10076",
+      "poke_api": "https://pokeapi.co/api/v2/pokemon/10076/error",
       "types": ["Bug", "Steel"],
       "attacks": [
         {

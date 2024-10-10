@@ -83,7 +83,28 @@ export default async function PokemonDetails({ params: { pokeName } }: Props) {
     const data = await response.json();
     urlImage = data.sprites.other["official-artwork"].front_default;
   } catch (error) {
-    urlImage = "/whoIsThatPokemon.png";
+    // It's not the best solution, but it should work for now.
+    switch (name) {
+      case "Genesect (Chill Drive)":
+        urlImage =
+          "https://archives.bulbagarden.net/media/upload/3/38/HOME0649W.png";
+        break;
+      case "Genesect (Burn Drive)":
+        urlImage =
+          "https://archives.bulbagarden.net/media/upload/a/aa/HOME0649R.png";
+        break;
+      case "Genesect (Douse Drive)":
+        urlImage =
+          "https://archives.bulbagarden.net/media/upload/4/44/HOME0649B.png";
+        break;
+      case "Genesect (Shock Drive)":
+        urlImage =
+          "https://archives.bulbagarden.net/media/upload/e/e5/HOME0649Y.png";
+        break;
+      default:
+        urlImage = "/whoIsThatPokemon.png";
+        break;
+    }
   }
 
   return (
